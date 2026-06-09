@@ -1,0 +1,22 @@
+{
+  "_comment": "League strength coefficients. Used to adjust club performance ratings. Based on UEFA/CONMEBOL coefficients and average xG across top leagues.",
+  "leagues": {
+    "Premier League":        1.00,
+    "La Liga":               0.97,
+    "Bundesliga":            0.95,
+    "Serie A":               0.93,
+    "Ligue 1":               0.90,
+    "Eredivisie":            0.85,
+    "Primeira Liga":         0.83,
+    "Liga MX":               0.78,
+    "Saudi Pro League":      0.72,
+    "MLS":                   0.70,
+    "Brasileirao":           0.75,
+    "Argentine Primera":     0.76,
+    "Championship (ENG)":    0.80,
+    "Other European Top 5B": 0.82,
+    "Other":                 0.65
+  },
+  "top5_leagues": ["Premier League", "La Liga", "Bundesliga", "Serie A", "Ligue 1"],
+  "last_updated": "2025-01"
+}

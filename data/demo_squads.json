@@ -1,0 +1,1930 @@
+{
+  "_comment": "Demo squad data with pre-computed player stats for testing. Ratings on a 6-10 scale (FBref/SofaScore style).",
+  "squads": {
+    "Argentina": {
+      "players": [
+        {
+          "name": "E. Martínez",
+          "position": "GK",
+          "club": "Aston Villa",
+          "league": "Premier League",
+          "rating_national": 8.8,
+          "rating_club": 8.6,
+          "n_national_games": 60,
+          "market_value_m": 45,
+          "wc_games": 12
+        },
+        {
+          "name": "N. Molina",
+          "position": "DEF",
+          "club": "Atletico Madrid",
+          "league": "La Liga",
+          "rating_national": 7.6,
+          "rating_club": 7.6,
+          "n_national_games": 50,
+          "market_value_m": 35,
+          "wc_games": 8
+        },
+        {
+          "name": "C. Romero",
+          "position": "DEF",
+          "club": "Tottenham",
+          "league": "Premier League",
+          "rating_national": 8.3,
+          "rating_club": 8.4,
+          "n_national_games": 50,
+          "market_value_m": 70,
+          "wc_games": 8
+        },
+        {
+          "name": "L. Martínez",
+          "position": "DEF",
+          "club": "Man Utd",
+          "league": "Premier League",
+          "rating_national": 8.1,
+          "rating_club": 8.0,
+          "n_national_games": 40,
+          "market_value_m": 65,
+          "wc_games": 4
+        },
+        {
+          "name": "N. Tagliafico",
+          "position": "DEF",
+          "club": "Lyon",
+          "league": "Ligue 1",
+          "rating_national": 7.3,
+          "rating_club": 7.1,
+          "n_national_games": 65,
+          "market_value_m": 12,
+          "wc_games": 8
+        },
+        {
+          "name": "R. De Paul",
+          "position": "MID",
+          "club": "Inter Miami",
+          "league": "MLS",
+          "rating_national": 7.6,
+          "rating_club": 6.8,
+          "n_national_games": 70,
+          "market_value_m": 10,
+          "wc_games": 12
+        },
+        {
+          "name": "E. Fernández",
+          "position": "MID",
+          "club": "Chelsea",
+          "league": "Premier League",
+          "rating_national": 8.1,
+          "rating_club": 8.3,
+          "n_national_games": 40,
+          "market_value_m": 90,
+          "wc_games": 4
+        },
+        {
+          "name": "A. Mac Allister",
+          "position": "MID",
+          "club": "Liverpool",
+          "league": "Premier League",
+          "rating_national": 8.4,
+          "rating_club": 8.6,
+          "n_national_games": 40,
+          "market_value_m": 80,
+          "wc_games": 4
+        },
+        {
+          "name": "J. Álvarez",
+          "position": "FWD",
+          "club": "Atletico Madrid",
+          "league": "La Liga",
+          "rating_national": 8.4,
+          "rating_club": 8.5,
+          "n_national_games": 45,
+          "market_value_m": 100,
+          "wc_games": 4
+        },
+        {
+          "name": "L. Martínez (ST)",
+          "position": "FWD",
+          "club": "Inter Milan",
+          "league": "Serie A",
+          "rating_national": 8.6,
+          "rating_club": 8.6,
+          "n_national_games": 50,
+          "market_value_m": 120,
+          "wc_games": 4
+        },
+        {
+          "name": "L. Messi",
+          "position": "FWD",
+          "club": "Inter Miami",
+          "league": "MLS",
+          "rating_national": 9.5,
+          "rating_club": 8.6,
+          "n_national_games": 180,
+          "market_value_m": 80,
+          "wc_games": 28
+        }
+      ]
+    },
+    "Brazil": {
+      "players": [
+        {
+          "name": "Alisson",
+          "position": "GK",
+          "club": "Liverpool",
+          "league": "Premier League",
+          "rating_national": 8.6,
+          "rating_club": 8.8,
+          "n_national_games": 60,
+          "market_value_m": 60,
+          "wc_games": 10
+        },
+        {
+          "name": "Danilo",
+          "position": "DEF",
+          "club": "Flamengo",
+          "league": "Brasileirao",
+          "rating_national": 7.0,
+          "rating_club": 6.9,
+          "n_national_games": 90,
+          "market_value_m": 8,
+          "wc_games": 12
+        },
+        {
+          "name": "Marquinhos",
+          "position": "DEF",
+          "club": "PSG",
+          "league": "Ligue 1",
+          "rating_national": 8.0,
+          "rating_club": 7.9,
+          "n_national_games": 90,
+          "market_value_m": 45,
+          "wc_games": 16
+        },
+        {
+          "name": "Gabriel Magalhães",
+          "position": "DEF",
+          "club": "Arsenal",
+          "league": "Premier League",
+          "rating_national": 7.8,
+          "rating_club": 8.3,
+          "n_national_games": 40,
+          "market_value_m": 65,
+          "wc_games": 0
+        },
+        {
+          "name": "Alex Sandro",
+          "position": "DEF",
+          "club": "Flamengo",
+          "league": "Brasileirao",
+          "rating_national": 7.0,
+          "rating_club": 6.8,
+          "n_national_games": 85,
+          "market_value_m": 6,
+          "wc_games": 8
+        },
+        {
+          "name": "Bruno Guimarães",
+          "position": "MID",
+          "club": "Newcastle",
+          "league": "Premier League",
+          "rating_national": 8.2,
+          "rating_club": 8.4,
+          "n_national_games": 40,
+          "market_value_m": 80,
+          "wc_games": 4
+        },
+        {
+          "name": "Casemiro",
+          "position": "MID",
+          "club": "Man Utd",
+          "league": "Premier League",
+          "rating_national": 7.6,
+          "rating_club": 7.1,
+          "n_national_games": 70,
+          "market_value_m": 30,
+          "wc_games": 16
+        },
+        {
+          "name": "Lucas Paquetá",
+          "position": "MID",
+          "club": "Flamengo",
+          "league": "Brasileirao",
+          "rating_national": 7.9,
+          "rating_club": 7.6,
+          "n_national_games": 55,
+          "market_value_m": 35,
+          "wc_games": 4
+        },
+        {
+          "name": "Raphinha",
+          "position": "FWD",
+          "club": "Barcelona",
+          "league": "La Liga",
+          "rating_national": 8.3,
+          "rating_club": 8.5,
+          "n_national_games": 50,
+          "market_value_m": 80,
+          "wc_games": 4
+        },
+        {
+          "name": "Vinícius Júnior",
+          "position": "FWD",
+          "club": "Real Madrid",
+          "league": "La Liga",
+          "rating_national": 9.1,
+          "rating_club": 9.3,
+          "n_national_games": 55,
+          "market_value_m": 200,
+          "wc_games": 4
+        },
+        {
+          "name": "Neymar",
+          "position": "FWD",
+          "club": "Santos",
+          "league": "Brasileirao",
+          "rating_national": 8.4,
+          "rating_club": 7.3,
+          "n_national_games": 80,
+          "market_value_m": 20,
+          "wc_games": 12
+        }
+      ]
+    },
+    "France": {
+      "players": [
+        {
+          "name": "M. Maignan",
+          "position": "GK",
+          "club": "AC Milan",
+          "league": "Serie A",
+          "rating_national": 8.3,
+          "rating_club": 8.4,
+          "n_national_games": 35,
+          "market_value_m": 50,
+          "wc_games": 0
+        },
+        {
+          "name": "J. Koundé",
+          "position": "DEF",
+          "club": "Barcelona",
+          "league": "La Liga",
+          "rating_national": 8.1,
+          "rating_club": 8.4,
+          "n_national_games": 45,
+          "market_value_m": 70,
+          "wc_games": 4
+        },
+        {
+          "name": "W. Saliba",
+          "position": "DEF",
+          "club": "Arsenal",
+          "league": "Premier League",
+          "rating_national": 8.5,
+          "rating_club": 8.9,
+          "n_national_games": 30,
+          "market_value_m": 80,
+          "wc_games": 0
+        },
+        {
+          "name": "D. Upamecano",
+          "position": "DEF",
+          "club": "Bayern Munich",
+          "league": "Bundesliga",
+          "rating_national": 7.9,
+          "rating_club": 8.1,
+          "n_national_games": 40,
+          "market_value_m": 60,
+          "wc_games": 0
+        },
+        {
+          "name": "T. Hernández",
+          "position": "DEF",
+          "club": "Al Hilal",
+          "league": "Saudi Pro League",
+          "rating_national": 7.8,
+          "rating_club": 7.0,
+          "n_national_games": 40,
+          "market_value_m": 20,
+          "wc_games": 0
+        },
+        {
+          "name": "A. Tchouaméni",
+          "position": "MID",
+          "club": "Real Madrid",
+          "league": "La Liga",
+          "rating_national": 8.1,
+          "rating_club": 8.3,
+          "n_national_games": 30,
+          "market_value_m": 80,
+          "wc_games": 0
+        },
+        {
+          "name": "W. Zaïre-Emery",
+          "position": "MID",
+          "club": "PSG",
+          "league": "Ligue 1",
+          "rating_national": 8.0,
+          "rating_club": 8.2,
+          "n_national_games": 20,
+          "market_value_m": 60,
+          "wc_games": 0
+        },
+        {
+          "name": "A. Rabiot",
+          "position": "MID",
+          "club": "AC Milan",
+          "league": "Serie A",
+          "rating_national": 7.6,
+          "rating_club": 7.9,
+          "n_national_games": 45,
+          "market_value_m": 25,
+          "wc_games": 8
+        },
+        {
+          "name": "O. Dembélé",
+          "position": "FWD",
+          "club": "PSG",
+          "league": "Ligue 1",
+          "rating_national": 8.3,
+          "rating_club": 8.4,
+          "n_national_games": 50,
+          "market_value_m": 80,
+          "wc_games": 4
+        },
+        {
+          "name": "K. Mbappé",
+          "position": "FWD",
+          "club": "Real Madrid",
+          "league": "La Liga",
+          "rating_national": 9.4,
+          "rating_club": 9.3,
+          "n_national_games": 70,
+          "market_value_m": 180,
+          "wc_games": 8
+        },
+        {
+          "name": "M. Thuram",
+          "position": "FWD",
+          "club": "Inter Milan",
+          "league": "Serie A",
+          "rating_national": 8.1,
+          "rating_club": 8.4,
+          "n_national_games": 35,
+          "market_value_m": 70,
+          "wc_games": 0
+        }
+      ]
+    },
+    "England": {
+      "players": [
+        {
+          "name": "J. Pickford",
+          "position": "GK",
+          "club": "Everton",
+          "league": "Premier League",
+          "rating_national": 7.9,
+          "rating_club": 7.6,
+          "n_national_games": 70,
+          "market_value_m": 20,
+          "wc_games": 8
+        },
+        {
+          "name": "R. James",
+          "position": "DEF",
+          "club": "Chelsea",
+          "league": "Premier League",
+          "rating_national": 7.9,
+          "rating_club": 8.0,
+          "n_national_games": 40,
+          "market_value_m": 65,
+          "wc_games": 4
+        },
+        {
+          "name": "J. Stones",
+          "position": "DEF",
+          "club": "Man City",
+          "league": "Premier League",
+          "rating_national": 7.9,
+          "rating_club": 8.1,
+          "n_national_games": 60,
+          "market_value_m": 50,
+          "wc_games": 8
+        },
+        {
+          "name": "M. Guehi",
+          "position": "DEF",
+          "club": "Man City",
+          "league": "Premier League",
+          "rating_national": 7.6,
+          "rating_club": 7.9,
+          "n_national_games": 25,
+          "market_value_m": 55,
+          "wc_games": 0
+        },
+        {
+          "name": "A. Robinson",
+          "position": "DEF",
+          "club": "Fulham",
+          "league": "Premier League",
+          "rating_national": 7.4,
+          "rating_club": 7.6,
+          "n_national_games": 30,
+          "market_value_m": 30,
+          "wc_games": 0
+        },
+        {
+          "name": "D. Rice",
+          "position": "MID",
+          "club": "Arsenal",
+          "league": "Premier League",
+          "rating_national": 8.7,
+          "rating_club": 8.9,
+          "n_national_games": 55,
+          "market_value_m": 120,
+          "wc_games": 4
+        },
+        {
+          "name": "J. Bellingham",
+          "position": "MID",
+          "club": "Real Madrid",
+          "league": "La Liga",
+          "rating_national": 9.1,
+          "rating_club": 9.2,
+          "n_national_games": 50,
+          "market_value_m": 180,
+          "wc_games": 4
+        },
+        {
+          "name": "K. Mainoo",
+          "position": "MID",
+          "club": "Man Utd",
+          "league": "Premier League",
+          "rating_national": 7.9,
+          "rating_club": 8.1,
+          "n_national_games": 20,
+          "market_value_m": 70,
+          "wc_games": 0
+        },
+        {
+          "name": "B. Saka",
+          "position": "FWD",
+          "club": "Arsenal",
+          "league": "Premier League",
+          "rating_national": 8.7,
+          "rating_club": 8.9,
+          "n_national_games": 50,
+          "market_value_m": 140,
+          "wc_games": 4
+        },
+        {
+          "name": "H. Kane",
+          "position": "FWD",
+          "club": "Bayern Munich",
+          "league": "Bundesliga",
+          "rating_national": 8.8,
+          "rating_club": 8.8,
+          "n_national_games": 100,
+          "market_value_m": 120,
+          "wc_games": 8
+        },
+        {
+          "name": "O. Watkins",
+          "position": "FWD",
+          "club": "Aston Villa",
+          "league": "Premier League",
+          "rating_national": 7.8,
+          "rating_club": 8.0,
+          "n_national_games": 30,
+          "market_value_m": 70,
+          "wc_games": 0
+        }
+      ]
+    },
+    "Germany": {
+      "players": [
+        {
+          "name": "M. Neuer",
+          "position": "GK",
+          "club": "Bayern Munich",
+          "league": "Bundesliga",
+          "rating_national": 8.1,
+          "rating_club": 8.2,
+          "n_national_games": 120,
+          "market_value_m": 15,
+          "wc_games": 20
+        },
+        {
+          "name": "J. Tah",
+          "position": "DEF",
+          "club": "Bayern Munich",
+          "league": "Bundesliga",
+          "rating_national": 7.9,
+          "rating_club": 8.1,
+          "n_national_games": 40,
+          "market_value_m": 40,
+          "wc_games": 0
+        },
+        {
+          "name": "A. Rüdiger",
+          "position": "DEF",
+          "club": "Real Madrid",
+          "league": "La Liga",
+          "rating_national": 8.1,
+          "rating_club": 7.9,
+          "n_national_games": 65,
+          "market_value_m": 30,
+          "wc_games": 4
+        },
+        {
+          "name": "N. Schlotterbeck",
+          "position": "DEF",
+          "club": "Borussia Dortmund",
+          "league": "Bundesliga",
+          "rating_national": 7.6,
+          "rating_club": 7.8,
+          "n_national_games": 30,
+          "market_value_m": 35,
+          "wc_games": 0
+        },
+        {
+          "name": "D. Raum",
+          "position": "DEF",
+          "club": "RB Leipzig",
+          "league": "Bundesliga",
+          "rating_national": 7.4,
+          "rating_club": 7.6,
+          "n_national_games": 30,
+          "market_value_m": 30,
+          "wc_games": 0
+        },
+        {
+          "name": "J. Kimmich",
+          "position": "MID",
+          "club": "Bayern Munich",
+          "league": "Bundesliga",
+          "rating_national": 8.7,
+          "rating_club": 8.7,
+          "n_national_games": 90,
+          "market_value_m": 80,
+          "wc_games": 8
+        },
+        {
+          "name": "A. Pavlovic",
+          "position": "MID",
+          "club": "Bayern Munich",
+          "league": "Bundesliga",
+          "rating_national": 8.0,
+          "rating_club": 8.2,
+          "n_national_games": 20,
+          "market_value_m": 50,
+          "wc_games": 0
+        },
+        {
+          "name": "F. Wirtz",
+          "position": "MID",
+          "club": "Liverpool",
+          "league": "Premier League",
+          "rating_national": 9.0,
+          "rating_club": 9.1,
+          "n_national_games": 30,
+          "market_value_m": 150,
+          "wc_games": 0
+        },
+        {
+          "name": "J. Musiala",
+          "position": "FWD",
+          "club": "Bayern Munich",
+          "league": "Bundesliga",
+          "rating_national": 8.9,
+          "rating_club": 9.0,
+          "n_national_games": 40,
+          "market_value_m": 150,
+          "wc_games": 0
+        },
+        {
+          "name": "K. Havertz",
+          "position": "FWD",
+          "club": "Arsenal",
+          "league": "Premier League",
+          "rating_national": 8.1,
+          "rating_club": 8.4,
+          "n_national_games": 65,
+          "market_value_m": 70,
+          "wc_games": 4
+        },
+        {
+          "name": "D. Undav",
+          "position": "FWD",
+          "club": "Stuttgart",
+          "league": "Bundesliga",
+          "rating_national": 7.6,
+          "rating_club": 7.9,
+          "n_national_games": 20,
+          "market_value_m": 25,
+          "wc_games": 0
+        }
+      ]
+    },
+    "Spain": {
+      "players": [
+        {
+          "name": "U. Simón",
+          "position": "GK",
+          "club": "Athletic Club",
+          "league": "La Liga",
+          "rating_national": 8.1,
+          "rating_club": 8.2,
+          "n_national_games": 35,
+          "market_value_m": 30,
+          "wc_games": 4
+        },
+        {
+          "name": "P. Porro",
+          "position": "DEF",
+          "club": "Tottenham",
+          "league": "Premier League",
+          "rating_national": 7.6,
+          "rating_club": 7.8,
+          "n_national_games": 30,
+          "market_value_m": 35,
+          "wc_games": 4
+        },
+        {
+          "name": "P. Cubarsí",
+          "position": "DEF",
+          "club": "Barcelona",
+          "league": "La Liga",
+          "rating_national": 8.1,
+          "rating_club": 8.4,
+          "n_national_games": 15,
+          "market_value_m": 60,
+          "wc_games": 0
+        },
+        {
+          "name": "A. Laporte",
+          "position": "DEF",
+          "club": "Athletic Club",
+          "league": "La Liga",
+          "rating_national": 7.9,
+          "rating_club": 8.0,
+          "n_national_games": 60,
+          "market_value_m": 20,
+          "wc_games": 4
+        },
+        {
+          "name": "A. Grimaldo",
+          "position": "DEF",
+          "club": "Bayer Leverkusen",
+          "league": "Bundesliga",
+          "rating_national": 7.9,
+          "rating_club": 8.1,
+          "n_national_games": 25,
+          "market_value_m": 40,
+          "wc_games": 0
+        },
+        {
+          "name": "Rodri",
+          "position": "MID",
+          "club": "Man City",
+          "league": "Premier League",
+          "rating_national": 9.1,
+          "rating_club": 9.3,
+          "n_national_games": 65,
+          "market_value_m": 150,
+          "wc_games": 4
+        },
+        {
+          "name": "Pedri",
+          "position": "MID",
+          "club": "Barcelona",
+          "league": "La Liga",
+          "rating_national": 8.9,
+          "rating_club": 9.1,
+          "n_national_games": 35,
+          "market_value_m": 150,
+          "wc_games": 4
+        },
+        {
+          "name": "F. Ruiz",
+          "position": "MID",
+          "club": "PSG",
+          "league": "Ligue 1",
+          "rating_national": 7.9,
+          "rating_club": 8.1,
+          "n_national_games": 40,
+          "market_value_m": 40,
+          "wc_games": 4
+        },
+        {
+          "name": "L. Yamal",
+          "position": "FWD",
+          "club": "Barcelona",
+          "league": "La Liga",
+          "rating_national": 9.1,
+          "rating_club": 9.4,
+          "n_national_games": 20,
+          "market_value_m": 180,
+          "wc_games": 4
+        },
+        {
+          "name": "N. Williams",
+          "position": "FWD",
+          "club": "Athletic Club",
+          "league": "La Liga",
+          "rating_national": 8.6,
+          "rating_club": 8.4,
+          "n_national_games": 20,
+          "market_value_m": 80,
+          "wc_games": 4
+        },
+        {
+          "name": "D. Olmo",
+          "position": "FWD",
+          "club": "Barcelona",
+          "league": "La Liga",
+          "rating_national": 8.4,
+          "rating_club": 8.6,
+          "n_national_games": 35,
+          "market_value_m": 80,
+          "wc_games": 4
+        }
+      ]
+    },
+    "Morocco": {
+      "players": [
+        {
+          "name": "Y. Bounou",
+          "position": "GK",
+          "club": "Al Hilal",
+          "league": "Saudi Pro League",
+          "rating_national": 8.4,
+          "rating_club": 7.6,
+          "n_national_games": 60,
+          "market_value_m": 20,
+          "wc_games": 8
+        },
+        {
+          "name": "A. Hakimi",
+          "position": "DEF",
+          "club": "PSG",
+          "league": "Ligue 1",
+          "rating_national": 8.9,
+          "rating_club": 8.8,
+          "n_national_games": 65,
+          "market_value_m": 80,
+          "wc_games": 8
+        },
+        {
+          "name": "N. Aguerd",
+          "position": "DEF",
+          "club": "Marseille",
+          "league": "Ligue 1",
+          "rating_national": 7.9,
+          "rating_club": 8.0,
+          "n_national_games": 40,
+          "market_value_m": 30,
+          "wc_games": 4
+        },
+        {
+          "name": "C. Riad",
+          "position": "DEF",
+          "club": "Crystal Palace",
+          "league": "Premier League",
+          "rating_national": 7.6,
+          "rating_club": 7.6,
+          "n_national_games": 15,
+          "market_value_m": 30,
+          "wc_games": 0
+        },
+        {
+          "name": "N. Mazraoui",
+          "position": "DEF",
+          "club": "Man Utd",
+          "league": "Premier League",
+          "rating_national": 7.9,
+          "rating_club": 7.9,
+          "n_national_games": 45,
+          "market_value_m": 35,
+          "wc_games": 8
+        },
+        {
+          "name": "S. Amrabat",
+          "position": "MID",
+          "club": "Real Betis",
+          "league": "La Liga",
+          "rating_national": 8.3,
+          "rating_club": 7.9,
+          "n_national_games": 55,
+          "market_value_m": 20,
+          "wc_games": 8
+        },
+        {
+          "name": "B. El Khannouss",
+          "position": "MID",
+          "club": "Stuttgart",
+          "league": "Bundesliga",
+          "rating_national": 8.1,
+          "rating_club": 8.1,
+          "n_national_games": 25,
+          "market_value_m": 40,
+          "wc_games": 4
+        },
+        {
+          "name": "A. Ounahi",
+          "position": "MID",
+          "club": "Girona",
+          "league": "La Liga",
+          "rating_national": 7.6,
+          "rating_club": 7.6,
+          "n_national_games": 30,
+          "market_value_m": 20,
+          "wc_games": 4
+        },
+        {
+          "name": "B. Diaz",
+          "position": "FWD",
+          "club": "Real Madrid",
+          "league": "La Liga",
+          "rating_national": 8.4,
+          "rating_club": 8.3,
+          "n_national_games": 30,
+          "market_value_m": 55,
+          "wc_games": 4
+        },
+        {
+          "name": "A. El Kaabi",
+          "position": "FWD",
+          "club": "Olympiacos",
+          "league": "Other European Top 5B",
+          "rating_national": 7.9,
+          "rating_club": 7.6,
+          "n_national_games": 30,
+          "market_value_m": 20,
+          "wc_games": 0
+        },
+        {
+          "name": "A. Ezzalzouli",
+          "position": "FWD",
+          "club": "Real Betis",
+          "league": "La Liga",
+          "rating_national": 7.9,
+          "rating_club": 7.8,
+          "n_national_games": 25,
+          "market_value_m": 20,
+          "wc_games": 4
+        }
+      ]
+    },
+    "Croatia": {
+      "players": [
+        {
+          "name": "D. Livaković",
+          "position": "GK",
+          "club": "Dinamo Zagreb",
+          "league": "Other European Top 5B",
+          "rating_national": 7.9,
+          "rating_club": 7.6,
+          "n_national_games": 55,
+          "market_value_m": 10,
+          "wc_games": 8
+        },
+        {
+          "name": "J. Stanisić",
+          "position": "DEF",
+          "club": "Bayern Munich",
+          "league": "Bundesliga",
+          "rating_national": 7.6,
+          "rating_club": 7.9,
+          "n_national_games": 25,
+          "market_value_m": 30,
+          "wc_games": 0
+        },
+        {
+          "name": "J. Gvardiol",
+          "position": "DEF",
+          "club": "Man City",
+          "league": "Premier League",
+          "rating_national": 8.5,
+          "rating_club": 8.6,
+          "n_national_games": 40,
+          "market_value_m": 90,
+          "wc_games": 4
+        },
+        {
+          "name": "J. Šutalo",
+          "position": "DEF",
+          "club": "Ajax",
+          "league": "Eredivisie",
+          "rating_national": 7.5,
+          "rating_club": 7.6,
+          "n_national_games": 20,
+          "market_value_m": 30,
+          "wc_games": 0
+        },
+        {
+          "name": "B. Sosa",
+          "position": "DEF",
+          "club": "Man City",
+          "league": "Premier League",
+          "rating_national": 7.5,
+          "rating_club": 7.4,
+          "n_national_games": 35,
+          "market_value_m": 25,
+          "wc_games": 4
+        },
+        {
+          "name": "L. Modrić",
+          "position": "MID",
+          "club": "AC Milan",
+          "league": "Serie A",
+          "rating_national": 8.5,
+          "rating_club": 8.2,
+          "n_national_games": 170,
+          "market_value_m": 15,
+          "wc_games": 24
+        },
+        {
+          "name": "M. Kovačić",
+          "position": "MID",
+          "club": "Man City",
+          "league": "Premier League",
+          "rating_national": 8.3,
+          "rating_club": 8.4,
+          "n_national_games": 100,
+          "market_value_m": 40,
+          "wc_games": 16
+        },
+        {
+          "name": "M. Pašalić",
+          "position": "MID",
+          "club": "Atalanta",
+          "league": "Serie A",
+          "rating_national": 7.8,
+          "rating_club": 8.0,
+          "n_national_games": 70,
+          "market_value_m": 20,
+          "wc_games": 4
+        },
+        {
+          "name": "I. Perišić",
+          "position": "FWD",
+          "club": "PSV",
+          "league": "Eredivisie",
+          "rating_national": 7.9,
+          "rating_club": 7.7,
+          "n_national_games": 120,
+          "market_value_m": 10,
+          "wc_games": 16
+        },
+        {
+          "name": "A. Kramarić",
+          "position": "FWD",
+          "club": "Hoffenheim",
+          "league": "Bundesliga",
+          "rating_national": 7.9,
+          "rating_club": 7.9,
+          "n_national_games": 80,
+          "market_value_m": 15,
+          "wc_games": 12
+        },
+        {
+          "name": "L. Sučić",
+          "position": "FWD",
+          "club": "Real Sociedad",
+          "league": "La Liga",
+          "rating_national": 8.0,
+          "rating_club": 8.0,
+          "n_national_games": 20,
+          "market_value_m": 40,
+          "wc_games": 0
+        }
+      ]
+    },
+    "Portugal": {
+      "players": [
+        {
+          "name": "D. Costa",
+          "position": "GK",
+          "club": "Porto",
+          "league": "Primeira Liga",
+          "rating_national": 8.1,
+          "rating_club": 8.3,
+          "n_national_games": 30,
+          "market_value_m": 35,
+          "wc_games": 0
+        },
+        {
+          "name": "D. Dalot",
+          "position": "DEF",
+          "club": "Man Utd",
+          "league": "Premier League",
+          "rating_national": 7.6,
+          "rating_club": 7.9,
+          "n_national_games": 30,
+          "market_value_m": 35,
+          "wc_games": 0
+        },
+        {
+          "name": "R. Dias",
+          "position": "DEF",
+          "club": "Man City",
+          "league": "Premier League",
+          "rating_national": 8.6,
+          "rating_club": 9.0,
+          "n_national_games": 60,
+          "market_value_m": 90,
+          "wc_games": 4
+        },
+        {
+          "name": "G. Inácio",
+          "position": "DEF",
+          "club": "Sporting",
+          "league": "Primeira Liga",
+          "rating_national": 7.9,
+          "rating_club": 8.0,
+          "n_national_games": 30,
+          "market_value_m": 45,
+          "wc_games": 0
+        },
+        {
+          "name": "N. Mendes",
+          "position": "DEF",
+          "club": "PSG",
+          "league": "Ligue 1",
+          "rating_national": 7.9,
+          "rating_club": 8.1,
+          "n_national_games": 30,
+          "market_value_m": 60,
+          "wc_games": 0
+        },
+        {
+          "name": "Vitinha",
+          "position": "MID",
+          "club": "PSG",
+          "league": "Ligue 1",
+          "rating_national": 7.9,
+          "rating_club": 8.2,
+          "n_national_games": 30,
+          "market_value_m": 60,
+          "wc_games": 0
+        },
+        {
+          "name": "J. Neves",
+          "position": "MID",
+          "club": "PSG",
+          "league": "Ligue 1",
+          "rating_national": 8.1,
+          "rating_club": 8.3,
+          "n_national_games": 20,
+          "market_value_m": 80,
+          "wc_games": 0
+        },
+        {
+          "name": "B. Fernandes",
+          "position": "MID",
+          "club": "Man Utd",
+          "league": "Premier League",
+          "rating_national": 8.4,
+          "rating_club": 8.1,
+          "n_national_games": 60,
+          "market_value_m": 55,
+          "wc_games": 4
+        },
+        {
+          "name": "P. Neto",
+          "position": "FWD",
+          "club": "Chelsea",
+          "league": "Premier League",
+          "rating_national": 8.1,
+          "rating_club": 8.4,
+          "n_national_games": 30,
+          "market_value_m": 65,
+          "wc_games": 0
+        },
+        {
+          "name": "R. Leão",
+          "position": "FWD",
+          "club": "AC Milan",
+          "league": "Serie A",
+          "rating_national": 8.4,
+          "rating_club": 8.5,
+          "n_national_games": 45,
+          "market_value_m": 80,
+          "wc_games": 0
+        },
+        {
+          "name": "C. Ronaldo",
+          "position": "FWD",
+          "club": "Al Nassr",
+          "league": "Saudi Pro League",
+          "rating_national": 8.1,
+          "rating_club": 7.9,
+          "n_national_games": 200,
+          "market_value_m": 15,
+          "wc_games": 22
+        }
+      ]
+    },
+    "Netherlands": {
+      "players": [
+        {
+          "name": "B. Verbruggen",
+          "position": "GK",
+          "club": "Brighton",
+          "league": "Premier League",
+          "rating_national": 7.9,
+          "rating_club": 8.1,
+          "n_national_games": 20,
+          "market_value_m": 35,
+          "wc_games": 0
+        },
+        {
+          "name": "D. Dumfries",
+          "position": "DEF",
+          "club": "Inter Milan",
+          "league": "Serie A",
+          "rating_national": 7.6,
+          "rating_club": 7.9,
+          "n_national_games": 55,
+          "market_value_m": 35,
+          "wc_games": 4
+        },
+        {
+          "name": "V. van Dijk",
+          "position": "DEF",
+          "club": "Liverpool",
+          "league": "Premier League",
+          "rating_national": 8.6,
+          "rating_club": 8.7,
+          "n_national_games": 70,
+          "market_value_m": 55,
+          "wc_games": 8
+        },
+        {
+          "name": "J. van Hecke",
+          "position": "DEF",
+          "club": "Brighton",
+          "league": "Premier League",
+          "rating_national": 7.6,
+          "rating_club": 7.9,
+          "n_national_games": 15,
+          "market_value_m": 35,
+          "wc_games": 0
+        },
+        {
+          "name": "J. Hato",
+          "position": "DEF",
+          "club": "Chelsea",
+          "league": "Premier League",
+          "rating_national": 7.6,
+          "rating_club": 7.8,
+          "n_national_games": 10,
+          "market_value_m": 40,
+          "wc_games": 0
+        },
+        {
+          "name": "R. Gravenberch",
+          "position": "MID",
+          "club": "Liverpool",
+          "league": "Premier League",
+          "rating_national": 8.1,
+          "rating_club": 8.4,
+          "n_national_games": 30,
+          "market_value_m": 70,
+          "wc_games": 0
+        },
+        {
+          "name": "F. de Jong",
+          "position": "MID",
+          "club": "Barcelona",
+          "league": "La Liga",
+          "rating_national": 8.4,
+          "rating_club": 8.6,
+          "n_national_games": 60,
+          "market_value_m": 80,
+          "wc_games": 4
+        },
+        {
+          "name": "T. Koopmeiners",
+          "position": "MID",
+          "club": "Juventus",
+          "league": "Serie A",
+          "rating_national": 7.9,
+          "rating_club": 8.2,
+          "n_national_games": 35,
+          "market_value_m": 50,
+          "wc_games": 0
+        },
+        {
+          "name": "C. Gakpo",
+          "position": "FWD",
+          "club": "Liverpool",
+          "league": "Premier League",
+          "rating_national": 8.1,
+          "rating_club": 8.4,
+          "n_national_games": 30,
+          "market_value_m": 65,
+          "wc_games": 4
+        },
+        {
+          "name": "C. Summerville",
+          "position": "FWD",
+          "club": "West Ham",
+          "league": "Premier League",
+          "rating_national": 7.9,
+          "rating_club": 8.1,
+          "n_national_games": 15,
+          "market_value_m": 50,
+          "wc_games": 0
+        },
+        {
+          "name": "W. Weghorst",
+          "position": "FWD",
+          "club": "Ajax",
+          "league": "Eredivisie",
+          "rating_national": 7.6,
+          "rating_club": 7.4,
+          "n_national_games": 40,
+          "market_value_m": 10,
+          "wc_games": 4
+        }
+      ]
+    },
+    "Belgium": {
+      "players": [
+        {
+          "name": "T. Courtois",
+          "position": "GK",
+          "club": "Real Madrid",
+          "league": "La Liga",
+          "rating_national": 9.0,
+          "rating_club": 9.0,
+          "n_national_games": 100,
+          "market_value_m": 45,
+          "wc_games": 8
+        },
+        {
+          "name": "T. Castagne",
+          "position": "DEF",
+          "club": "Fulham",
+          "league": "Premier League",
+          "rating_national": 7.4,
+          "rating_club": 7.6,
+          "n_national_games": 50,
+          "market_value_m": 15,
+          "wc_games": 4
+        },
+        {
+          "name": "Z. Debast",
+          "position": "DEF",
+          "club": "Sporting",
+          "league": "Primeira Liga",
+          "rating_national": 7.6,
+          "rating_club": 7.8,
+          "n_national_games": 20,
+          "market_value_m": 35,
+          "wc_games": 0
+        },
+        {
+          "name": "M. De Cuyper",
+          "position": "DEF",
+          "club": "Brighton",
+          "league": "Premier League",
+          "rating_national": 7.5,
+          "rating_club": 7.8,
+          "n_national_games": 15,
+          "market_value_m": 30,
+          "wc_games": 0
+        },
+        {
+          "name": "A. Theate",
+          "position": "DEF",
+          "club": "Eintracht Frankfurt",
+          "league": "Bundesliga",
+          "rating_national": 7.5,
+          "rating_club": 7.7,
+          "n_national_games": 20,
+          "market_value_m": 25,
+          "wc_games": 0
+        },
+        {
+          "name": "K. De Bruyne",
+          "position": "MID",
+          "club": "Napoli",
+          "league": "Serie A",
+          "rating_national": 8.9,
+          "rating_club": 9.0,
+          "n_national_games": 100,
+          "market_value_m": 70,
+          "wc_games": 8
+        },
+        {
+          "name": "A. Onana",
+          "position": "MID",
+          "club": "Aston Villa",
+          "league": "Premier League",
+          "rating_national": 8.1,
+          "rating_club": 8.3,
+          "n_national_games": 35,
+          "market_value_m": 60,
+          "wc_games": 0
+        },
+        {
+          "name": "Y. Tielemans",
+          "position": "MID",
+          "club": "Aston Villa",
+          "league": "Premier League",
+          "rating_national": 7.9,
+          "rating_club": 8.0,
+          "n_national_games": 55,
+          "market_value_m": 30,
+          "wc_games": 8
+        },
+        {
+          "name": "J. Doku",
+          "position": "FWD",
+          "club": "Man City",
+          "league": "Premier League",
+          "rating_national": 8.3,
+          "rating_club": 8.5,
+          "n_national_games": 25,
+          "market_value_m": 70,
+          "wc_games": 0
+        },
+        {
+          "name": "R. Lukaku",
+          "position": "FWD",
+          "club": "Napoli",
+          "league": "Serie A",
+          "rating_national": 8.3,
+          "rating_club": 8.3,
+          "n_national_games": 110,
+          "market_value_m": 35,
+          "wc_games": 8
+        },
+        {
+          "name": "L. Trossard",
+          "position": "FWD",
+          "club": "Arsenal",
+          "league": "Premier League",
+          "rating_national": 8.0,
+          "rating_club": 8.3,
+          "n_national_games": 35,
+          "market_value_m": 45,
+          "wc_games": 0
+        }
+      ]
+    },
+    "Uruguay": {
+      "players": [
+        {
+          "name": "S. Rochet",
+          "position": "GK",
+          "club": "Internacional",
+          "league": "Brasileirao",
+          "rating_national": 7.8,
+          "rating_club": 7.5,
+          "n_national_games": 35,
+          "market_value_m": 8,
+          "wc_games": 0
+        },
+        {
+          "name": "G. Varela",
+          "position": "DEF",
+          "club": "Flamengo",
+          "league": "Brasileirao",
+          "rating_national": 7.3,
+          "rating_club": 7.2,
+          "n_national_games": 30,
+          "market_value_m": 8,
+          "wc_games": 0
+        },
+        {
+          "name": "R. Araújo",
+          "position": "DEF",
+          "club": "Barcelona",
+          "league": "La Liga",
+          "rating_national": 8.4,
+          "rating_club": 8.5,
+          "n_national_games": 35,
+          "market_value_m": 80,
+          "wc_games": 0
+        },
+        {
+          "name": "J. Giménez",
+          "position": "DEF",
+          "club": "Atletico Madrid",
+          "league": "La Liga",
+          "rating_national": 8.1,
+          "rating_club": 8.2,
+          "n_national_games": 70,
+          "market_value_m": 45,
+          "wc_games": 4
+        },
+        {
+          "name": "M. Olivera",
+          "position": "DEF",
+          "club": "Napoli",
+          "league": "Serie A",
+          "rating_national": 7.6,
+          "rating_club": 7.9,
+          "n_national_games": 35,
+          "market_value_m": 25,
+          "wc_games": 0
+        },
+        {
+          "name": "M. Ugarte",
+          "position": "MID",
+          "club": "Man Utd",
+          "league": "Premier League",
+          "rating_national": 8.1,
+          "rating_club": 8.0,
+          "n_national_games": 30,
+          "market_value_m": 60,
+          "wc_games": 0
+        },
+        {
+          "name": "F. Valverde",
+          "position": "MID",
+          "club": "Real Madrid",
+          "league": "La Liga",
+          "rating_national": 8.8,
+          "rating_club": 9.0,
+          "n_national_games": 55,
+          "market_value_m": 130,
+          "wc_games": 4
+        },
+        {
+          "name": "G. De Arrascaeta",
+          "position": "MID",
+          "club": "Flamengo",
+          "league": "Brasileirao",
+          "rating_national": 8.0,
+          "rating_club": 7.8,
+          "n_national_games": 70,
+          "market_value_m": 15,
+          "wc_games": 4
+        },
+        {
+          "name": "N. De la Cruz",
+          "position": "MID",
+          "club": "Flamengo",
+          "league": "Brasileirao",
+          "rating_national": 7.8,
+          "rating_club": 7.7,
+          "n_national_games": 35,
+          "market_value_m": 20,
+          "wc_games": 0
+        },
+        {
+          "name": "D. Núñez",
+          "position": "FWD",
+          "club": "Al Hilal",
+          "league": "Saudi Pro League",
+          "rating_national": 8.4,
+          "rating_club": 7.8,
+          "n_national_games": 45,
+          "market_value_m": 40,
+          "wc_games": 0
+        },
+        {
+          "name": "F. Pellistri",
+          "position": "FWD",
+          "club": "Panathinaikos",
+          "league": "Other European Top 5B",
+          "rating_national": 7.6,
+          "rating_club": 7.3,
+          "n_national_games": 20,
+          "market_value_m": 15,
+          "wc_games": 0
+        }
+      ]
+    },
+    "Colombia": {
+      "players": [
+        {
+          "name": "C. Vargas",
+          "position": "GK",
+          "club": "Atlas",
+          "league": "MLS",
+          "rating_national": 7.5,
+          "rating_club": 7.3,
+          "n_national_games": 25,
+          "market_value_m": 8,
+          "wc_games": 0
+        },
+        {
+          "name": "D. Muñoz",
+          "position": "DEF",
+          "club": "Crystal Palace",
+          "league": "Premier League",
+          "rating_national": 7.9,
+          "rating_club": 8.0,
+          "n_national_games": 35,
+          "market_value_m": 35,
+          "wc_games": 0
+        },
+        {
+          "name": "J. Lucumi",
+          "position": "DEF",
+          "club": "Bologna",
+          "league": "Serie A",
+          "rating_national": 7.6,
+          "rating_club": 7.8,
+          "n_national_games": 25,
+          "market_value_m": 25,
+          "wc_games": 0
+        },
+        {
+          "name": "Y. Mina",
+          "position": "DEF",
+          "club": "Cagliari",
+          "league": "Serie A",
+          "rating_national": 7.5,
+          "rating_club": 7.3,
+          "n_national_games": 60,
+          "market_value_m": 10,
+          "wc_games": 4
+        },
+        {
+          "name": "J. Mojica",
+          "position": "DEF",
+          "club": "Mallorca",
+          "league": "Other European Top 5B",
+          "rating_national": 7.4,
+          "rating_club": 7.4,
+          "n_national_games": 40,
+          "market_value_m": 10,
+          "wc_games": 0
+        },
+        {
+          "name": "R. Rios",
+          "position": "MID",
+          "club": "Benfica",
+          "league": "Primeira Liga",
+          "rating_national": 7.9,
+          "rating_club": 8.0,
+          "n_national_games": 20,
+          "market_value_m": 35,
+          "wc_games": 0
+        },
+        {
+          "name": "J. Lerma",
+          "position": "MID",
+          "club": "Crystal Palace",
+          "league": "Premier League",
+          "rating_national": 7.8,
+          "rating_club": 7.9,
+          "n_national_games": 55,
+          "market_value_m": 20,
+          "wc_games": 4
+        },
+        {
+          "name": "J. Rodríguez",
+          "position": "MID",
+          "club": "Minnesota Utd",
+          "league": "MLS",
+          "rating_national": 8.0,
+          "rating_club": 6.8,
+          "n_national_games": 100,
+          "market_value_m": 5,
+          "wc_games": 8
+        },
+        {
+          "name": "L. Díaz",
+          "position": "FWD",
+          "club": "Bayern Munich",
+          "league": "Bundesliga",
+          "rating_national": 8.5,
+          "rating_club": 8.7,
+          "n_national_games": 45,
+          "market_value_m": 90,
+          "wc_games": 0
+        },
+        {
+          "name": "J. Hernández",
+          "position": "FWD",
+          "club": "Real Betis",
+          "league": "La Liga",
+          "rating_national": 8.3,
+          "rating_club": 8.0,
+          "n_national_games": 50,
+          "market_value_m": 45,
+          "wc_games": 4
+        },
+        {
+          "name": "J. Córdoba",
+          "position": "FWD",
+          "club": "FC Krasnodar",
+          "league": "Other",
+          "rating_national": 7.4,
+          "rating_club": 7.2,
+          "n_national_games": 25,
+          "market_value_m": 10,
+          "wc_games": 0
+        }
+      ]
+    },
+    "Japan": {
+      "players": [
+        {
+          "name": "Z. Suzuki",
+          "position": "GK",
+          "club": "Parma",
+          "league": "Other European Top 5B",
+          "rating_national": 7.8,
+          "rating_club": 7.6,
+          "n_national_games": 20,
+          "market_value_m": 15,
+          "wc_games": 0
+        },
+        {
+          "name": "H. Ito",
+          "position": "DEF",
+          "club": "Bayern Munich",
+          "league": "Bundesliga",
+          "rating_national": 7.8,
+          "rating_club": 8.0,
+          "n_national_games": 35,
+          "market_value_m": 40,
+          "wc_games": 4
+        },
+        {
+          "name": "K. Itakura",
+          "position": "DEF",
+          "club": "Ajax",
+          "league": "Eredivisie",
+          "rating_national": 7.6,
+          "rating_club": 7.8,
+          "n_national_games": 35,
+          "market_value_m": 25,
+          "wc_games": 4
+        },
+        {
+          "name": "T. Watanabe",
+          "position": "DEF",
+          "club": "Feyenoord",
+          "league": "Eredivisie",
+          "rating_national": 7.4,
+          "rating_club": 7.6,
+          "n_national_games": 20,
+          "market_value_m": 20,
+          "wc_games": 0
+        },
+        {
+          "name": "T. Tomiyasu",
+          "position": "DEF",
+          "club": "Ajax",
+          "league": "Eredivisie",
+          "rating_national": 7.9,
+          "rating_club": 7.9,
+          "n_national_games": 50,
+          "market_value_m": 30,
+          "wc_games": 4
+        },
+        {
+          "name": "W. Endo",
+          "position": "MID",
+          "club": "Liverpool",
+          "league": "Premier League",
+          "rating_national": 8.1,
+          "rating_club": 8.3,
+          "n_national_games": 60,
+          "market_value_m": 35,
+          "wc_games": 4
+        },
+        {
+          "name": "T. Kubo",
+          "position": "MID",
+          "club": "Real Sociedad",
+          "league": "La Liga",
+          "rating_national": 8.4,
+          "rating_club": 8.3,
+          "n_national_games": 40,
+          "market_value_m": 60,
+          "wc_games": 4
+        },
+        {
+          "name": "D. Kamada",
+          "position": "MID",
+          "club": "Crystal Palace",
+          "league": "Premier League",
+          "rating_national": 7.9,
+          "rating_club": 8.0,
+          "n_national_games": 45,
+          "market_value_m": 25,
+          "wc_games": 4
+        },
+        {
+          "name": "R. Doan",
+          "position": "FWD",
+          "club": "Eintracht Frankfurt",
+          "league": "Bundesliga",
+          "rating_national": 7.9,
+          "rating_club": 8.0,
+          "n_national_games": 40,
+          "market_value_m": 25,
+          "wc_games": 4
+        },
+        {
+          "name": "K. Mitoma",
+          "position": "FWD",
+          "club": "Brighton",
+          "league": "Premier League",
+          "rating_national": 8.3,
+          "rating_club": 8.4,
+          "n_national_games": 35,
+          "market_value_m": 50,
+          "wc_games": 4
+        },
+        {
+          "name": "A. Ueda",
+          "position": "FWD",
+          "club": "Feyenoord",
+          "league": "Eredivisie",
+          "rating_national": 7.8,
+          "rating_club": 7.9,
+          "n_national_games": 35,
+          "market_value_m": 25,
+          "wc_games": 0
+        }
+      ]
+    },
+    "South Korea": {
+      "players": [
+        {
+          "name": "H. Jo",
+          "position": "GK",
+          "club": "Ulsan",
+          "league": "Other European Top 5B",
+          "rating_national": 7.5,
+          "rating_club": 7.2,
+          "n_national_games": 25,
+          "market_value_m": 5,
+          "wc_games": 0
+        },
+        {
+          "name": "M. Kim",
+          "position": "DEF",
+          "club": "Bayern Munich",
+          "league": "Bundesliga",
+          "rating_national": 8.5,
+          "rating_club": 8.6,
+          "n_national_games": 60,
+          "market_value_m": 70,
+          "wc_games": 4
+        },
+        {
+          "name": "J. Kim",
+          "position": "DEF",
+          "club": "Man City",
+          "league": "Premier League",
+          "rating_national": 7.6,
+          "rating_club": 7.4,
+          "n_national_games": 20,
+          "market_value_m": 15,
+          "wc_games": 0
+        },
+        {
+          "name": "Y. Seol",
+          "position": "DEF",
+          "club": "Red Star Belgrade",
+          "league": "Other European Top 5B",
+          "rating_national": 7.3,
+          "rating_club": 7.3,
+          "n_national_games": 15,
+          "market_value_m": 10,
+          "wc_games": 0
+        },
+        {
+          "name": "J. Castrop",
+          "position": "DEF",
+          "club": "Borussia Monchengladbach",
+          "league": "Bundesliga",
+          "rating_national": 7.4,
+          "rating_club": 7.5,
+          "n_national_games": 20,
+          "market_value_m": 20,
+          "wc_games": 0
+        },
+        {
+          "name": "H. Hwang",
+          "position": "MID",
+          "club": "Wolves",
+          "league": "Premier League",
+          "rating_national": 7.9,
+          "rating_club": 8.0,
+          "n_national_games": 55,
+          "market_value_m": 35,
+          "wc_games": 4
+        },
+        {
+          "name": "K. Lee",
+          "position": "MID",
+          "club": "PSG",
+          "league": "Ligue 1",
+          "rating_national": 8.5,
+          "rating_club": 8.6,
+          "n_national_games": 45,
+          "market_value_m": 70,
+          "wc_games": 4
+        },
+        {
+          "name": "I. Hwang",
+          "position": "MID",
+          "club": "Feyenoord",
+          "league": "Eredivisie",
+          "rating_national": 7.6,
+          "rating_club": 7.8,
+          "n_national_games": 35,
+          "market_value_m": 20,
+          "wc_games": 4
+        },
+        {
+          "name": "J. Lee",
+          "position": "FWD",
+          "club": "Mainz",
+          "league": "Bundesliga",
+          "rating_national": 7.5,
+          "rating_club": 7.6,
+          "n_national_games": 40,
+          "market_value_m": 15,
+          "wc_games": 4
+        },
+        {
+          "name": "H. Son",
+          "position": "FWD",
+          "club": "LAFC",
+          "league": "MLS",
+          "rating_national": 8.8,
+          "rating_club": 8.4,
+          "n_national_games": 120,
+          "market_value_m": 20,
+          "wc_games": 12
+        },
+        {
+          "name": "H. Oh",
+          "position": "FWD",
+          "club": "Besiktas",
+          "league": "Other European Top 5B",
+          "rating_national": 7.6,
+          "rating_club": 7.4,
+          "n_national_games": 25,
+          "market_value_m": 15,
+          "wc_games": 0
+        }
+      ]
+    }
+  },
+  "recent_form": {
+    "Argentina": {
+      "last5_scored": 2.4,
+      "last5_conceded": 0.6,
+      "xg_avg": 2.1,
+      "xga_avg": 0.8
+    },
+    "Brazil": {
+      "last5_scored": 1.8,
+      "last5_conceded": 0.8,
+      "xg_avg": 1.9,
+      "xga_avg": 0.9
+    },
+    "France": {
+      "last5_scored": 2.2,
+      "last5_conceded": 0.8,
+      "xg_avg": 2.0,
+      "xga_avg": 0.9
+    },
+    "England": {
+      "last5_scored": 1.8,
+      "last5_conceded": 0.6,
+      "xg_avg": 1.7,
+      "xga_avg": 0.7
+    },
+    "Germany": {
+      "last5_scored": 2.0,
+      "last5_conceded": 1.2,
+      "xg_avg": 1.8,
+      "xga_avg": 1.1
+    },
+    "Spain": {
+      "last5_scored": 2.2,
+      "last5_conceded": 0.4,
+      "xg_avg": 2.3,
+      "xga_avg": 0.6
+    },
+    "Morocco": {
+      "last5_scored": 1.2,
+      "last5_conceded": 0.6,
+      "xg_avg": 1.1,
+      "xga_avg": 0.7
+    },
+    "Croatia": {
+      "last5_scored": 1.6,
+      "last5_conceded": 0.8,
+      "xg_avg": 1.4,
+      "xga_avg": 0.9
+    }
+  }
+}

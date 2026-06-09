@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Runtime cache (gerado automaticamente pelo app)
+data/cache/
+
+# Datasets grandes / gerados em runtime
+data/results.csv
+data/xgb_model.pkl
+
+# Secrets & env
+.env
+.env.*
+.streamlit/secrets.toml
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code
+.claude/
