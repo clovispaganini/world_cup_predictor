@@ -1,0 +1,582 @@
+{
+  "_gerado_em": "2026-06-10T16:21:01.508603",
+  "_modelo": "Elo(40%) + Poisson(35%) + XGBoost(25%)",
+  "jogos": [
+    {
+      "data": "2026-06-11",
+      "horario_brt": "16:00",
+      "grupo": "A",
+      "mandante": "Mexico",
+      "visitante": "South Africa",
+      "placar_previsto": "3-1"
+    },
+    {
+      "data": "2026-06-11",
+      "horario_brt": "23:00",
+      "grupo": "A",
+      "mandante": "South Korea",
+      "visitante": "Czechia",
+      "placar_previsto": "1-1"
+    },
+    {
+      "data": "2026-06-12",
+      "horario_brt": "16:00",
+      "grupo": "B",
+      "mandante": "Canada",
+      "visitante": "Bosnia-Herzegovina",
+      "placar_previsto": "2-1"
+    },
+    {
+      "data": "2026-06-12",
+      "horario_brt": "22:00",
+      "grupo": "D",
+      "mandante": "United States",
+      "visitante": "Paraguay",
+      "placar_previsto": "2-1"
+    },
+    {
+      "data": "2026-06-13",
+      "horario_brt": "16:00",
+      "grupo": "B",
+      "mandante": "Qatar",
+      "visitante": "Switzerland",
+      "placar_previsto": "0-3"
+    },
+    {
+      "data": "2026-06-13",
+      "horario_brt": "19:00",
+      "grupo": "C",
+      "mandante": "Brazil",
+      "visitante": "Morocco",
+      "placar_previsto": "1-1"
+    },
+    {
+      "data": "2026-06-13",
+      "horario_brt": "22:00",
+      "grupo": "C",
+      "mandante": "Haiti",
+      "visitante": "Scotland",
+      "placar_previsto": "0-3"
+    },
+    {
+      "data": "2026-06-13",
+      "horario_brt": "01:00",
+      "grupo": "D",
+      "mandante": "Australia",
+      "visitante": "Türkiye",
+      "placar_previsto": "1-1"
+    },
+    {
+      "data": "2026-06-14",
+      "horario_brt": "14:00",
+      "grupo": "E",
+      "mandante": "Germany",
+      "visitante": "Curacao",
+      "placar_previsto": "3-0"
+    },
+    {
+      "data": "2026-06-14",
+      "horario_brt": "20:00",
+      "grupo": "E",
+      "mandante": "Ivory Coast",
+      "visitante": "Ecuador",
+      "placar_previsto": "1-1"
+    },
+    {
+      "data": "2026-06-14",
+      "horario_brt": "17:00",
+      "grupo": "F",
+      "mandante": "Netherlands",
+      "visitante": "Japan",
+      "placar_previsto": "1-1"
+    },
+    {
+      "data": "2026-06-14",
+      "horario_brt": "23:00",
+      "grupo": "F",
+      "mandante": "Sweden",
+      "visitante": "Tunisia",
+      "placar_previsto": "2-0"
+    },
+    {
+      "data": "2026-06-15",
+      "horario_brt": "19:00",
+      "grupo": "G",
+      "mandante": "Belgium",
+      "visitante": "Egypt",
+      "placar_previsto": "3-0"
+    },
+    {
+      "data": "2026-06-15",
+      "horario_brt": "01:00",
+      "grupo": "G",
+      "mandante": "Iran",
+      "visitante": "New Zealand",
+      "placar_previsto": "1-1"
+    },
+    {
+      "data": "2026-06-15",
+      "horario_brt": "14:00",
+      "grupo": "H",
+      "mandante": "Spain",
+      "visitante": "Cape Verde",
+      "placar_previsto": "3-0"
+    },
+    {
+      "data": "2026-06-15",
+      "horario_brt": "19:00",
+      "grupo": "H",
+      "mandante": "Saudi Arabia",
+      "visitante": "Uruguay",
+      "placar_previsto": "0-2"
+    },
+    {
+      "data": "2026-06-16",
+      "horario_brt": "16:00",
+      "grupo": "I",
+      "mandante": "France",
+      "visitante": "Senegal",
+      "placar_previsto": "2-1"
+    },
+    {
+      "data": "2026-06-16",
+      "horario_brt": "19:00",
+      "grupo": "I",
+      "mandante": "Iraq",
+      "visitante": "Norway",
+      "placar_previsto": "0-3"
+    },
+    {
+      "data": "2026-06-16",
+      "horario_brt": "22:00",
+      "grupo": "J",
+      "mandante": "Argentina",
+      "visitante": "Algeria",
+      "placar_previsto": "2-0"
+    },
+    {
+      "data": "2026-06-16",
+      "horario_brt": "01:00",
+      "grupo": "J",
+      "mandante": "Austria",
+      "visitante": "Jordan",
+      "placar_previsto": "2-0"
+    },
+    {
+      "data": "2026-06-17",
+      "horario_brt": "14:00",
+      "grupo": "K",
+      "mandante": "Portugal",
+      "visitante": "Congo DR",
+      "placar_previsto": "3-0"
+    },
+    {
+      "data": "2026-06-17",
+      "horario_brt": "23:00",
+      "grupo": "K",
+      "mandante": "Uzbekistan",
+      "visitante": "Colombia",
+      "placar_previsto": "0-3"
+    },
+    {
+      "data": "2026-06-17",
+      "horario_brt": "17:00",
+      "grupo": "L",
+      "mandante": "England",
+      "visitante": "Croatia",
+      "placar_previsto": "2-1"
+    },
+    {
+      "data": "2026-06-17",
+      "horario_brt": "20:00",
+      "grupo": "L",
+      "mandante": "Ghana",
+      "visitante": "Panama",
+      "placar_previsto": "2-0"
+    },
+    {
+      "data": "2026-06-18",
+      "horario_brt": "13:00",
+      "grupo": "A",
+      "mandante": "Czechia",
+      "visitante": "South Africa",
+      "placar_previsto": "2-0"
+    },
+    {
+      "data": "2026-06-18",
+      "horario_brt": "00:00",
+      "grupo": "A",
+      "mandante": "Mexico",
+      "visitante": "South Korea",
+      "placar_previsto": "1-2"
+    },
+    {
+      "data": "2026-06-18",
+      "horario_brt": "16:00",
+      "grupo": "B",
+      "mandante": "Switzerland",
+      "visitante": "Bosnia-Herzegovina",
+      "placar_previsto": "2-0"
+    },
+    {
+      "data": "2026-06-18",
+      "horario_brt": "19:00",
+      "grupo": "B",
+      "mandante": "Canada",
+      "visitante": "Qatar",
+      "placar_previsto": "2-0"
+    },
+    {
+      "data": "2026-06-19",
+      "horario_brt": "19:00",
+      "grupo": "C",
+      "mandante": "Scotland",
+      "visitante": "Morocco",
+      "placar_previsto": "0-1"
+    },
+    {
+      "data": "2026-06-19",
+      "horario_brt": "22:00",
+      "grupo": "C",
+      "mandante": "Brazil",
+      "visitante": "Haiti",
+      "placar_previsto": "3-0"
+    },
+    {
+      "data": "2026-06-19",
+      "horario_brt": "16:00",
+      "grupo": "D",
+      "mandante": "United States",
+      "visitante": "Australia",
+      "placar_previsto": "1-1"
+    },
+    {
+      "data": "2026-06-19",
+      "horario_brt": "01:00",
+      "grupo": "D",
+      "mandante": "Türkiye",
+      "visitante": "Paraguay",
+      "placar_previsto": "1-1"
+    },
+    {
+      "data": "2026-06-20",
+      "horario_brt": "17:00",
+      "grupo": "E",
+      "mandante": "Germany",
+      "visitante": "Ivory Coast",
+      "placar_previsto": "2-0"
+    },
+    {
+      "data": "2026-06-20",
+      "horario_brt": "21:00",
+      "grupo": "E",
+      "mandante": "Ecuador",
+      "visitante": "Curacao",
+      "placar_previsto": "2-0"
+    },
+    {
+      "data": "2026-06-20",
+      "horario_brt": "14:00",
+      "grupo": "F",
+      "mandante": "Netherlands",
+      "visitante": "Sweden",
+      "placar_previsto": "1-1"
+    },
+    {
+      "data": "2026-06-20",
+      "horario_brt": "01:00",
+      "grupo": "F",
+      "mandante": "Tunisia",
+      "visitante": "Japan",
+      "placar_previsto": "0-2"
+    },
+    {
+      "data": "2026-06-21",
+      "horario_brt": "16:00",
+      "grupo": "G",
+      "mandante": "Belgium",
+      "visitante": "Iran",
+      "placar_previsto": "3-0"
+    },
+    {
+      "data": "2026-06-21",
+      "horario_brt": "22:00",
+      "grupo": "G",
+      "mandante": "New Zealand",
+      "visitante": "Egypt",
+      "placar_previsto": "1-2"
+    },
+    {
+      "data": "2026-06-21",
+      "horario_brt": "13:00",
+      "grupo": "H",
+      "mandante": "Spain",
+      "visitante": "Saudi Arabia",
+      "placar_previsto": "3-0"
+    },
+    {
+      "data": "2026-06-21",
+      "horario_brt": "19:00",
+      "grupo": "H",
+      "mandante": "Uruguay",
+      "visitante": "Cape Verde",
+      "placar_previsto": "2-0"
+    },
+    {
+      "data": "2026-06-22",
+      "horario_brt": "18:00",
+      "grupo": "I",
+      "mandante": "France",
+      "visitante": "Iraq",
+      "placar_previsto": "3-0"
+    },
+    {
+      "data": "2026-06-22",
+      "horario_brt": "21:00",
+      "grupo": "I",
+      "mandante": "Norway",
+      "visitante": "Senegal",
+      "placar_previsto": "2-2"
+    },
+    {
+      "data": "2026-06-22",
+      "horario_brt": "14:00",
+      "grupo": "J",
+      "mandante": "Argentina",
+      "visitante": "Austria",
+      "placar_previsto": "2-0"
+    },
+    {
+      "data": "2026-06-22",
+      "horario_brt": "00:00",
+      "grupo": "J",
+      "mandante": "Jordan",
+      "visitante": "Algeria",
+      "placar_previsto": "0-2"
+    },
+    {
+      "data": "2026-06-23",
+      "horario_brt": "14:00",
+      "grupo": "K",
+      "mandante": "Portugal",
+      "visitante": "Uzbekistan",
+      "placar_previsto": "3-0"
+    },
+    {
+      "data": "2026-06-23",
+      "horario_brt": "23:00",
+      "grupo": "K",
+      "mandante": "Colombia",
+      "visitante": "Congo DR",
+      "placar_previsto": "2-0"
+    },
+    {
+      "data": "2026-06-23",
+      "horario_brt": "17:00",
+      "grupo": "L",
+      "mandante": "England",
+      "visitante": "Ghana",
+      "placar_previsto": "3-0"
+    },
+    {
+      "data": "2026-06-23",
+      "horario_brt": "20:00",
+      "grupo": "L",
+      "mandante": "Panama",
+      "visitante": "Croatia",
+      "placar_previsto": "0-3"
+    },
+    {
+      "data": "2026-06-24",
+      "horario_brt": "22:00",
+      "grupo": "A",
+      "mandante": "Czechia",
+      "visitante": "Mexico",
+      "placar_previsto": "1-1"
+    },
+    {
+      "data": "2026-06-24",
+      "horario_brt": "22:00",
+      "grupo": "A",
+      "mandante": "South Africa",
+      "visitante": "South Korea",
+      "placar_previsto": "0-3"
+    },
+    {
+      "data": "2026-06-24",
+      "horario_brt": "16:00",
+      "grupo": "B",
+      "mandante": "Switzerland",
+      "visitante": "Canada",
+      "placar_previsto": "1-1"
+    },
+    {
+      "data": "2026-06-24",
+      "horario_brt": "16:00",
+      "grupo": "B",
+      "mandante": "Bosnia-Herzegovina",
+      "visitante": "Qatar",
+      "placar_previsto": "2-1"
+    },
+    {
+      "data": "2026-06-24",
+      "horario_brt": "19:00",
+      "grupo": "C",
+      "mandante": "Scotland",
+      "visitante": "Brazil",
+      "placar_previsto": "1-1"
+    },
+    {
+      "data": "2026-06-24",
+      "horario_brt": "19:00",
+      "grupo": "C",
+      "mandante": "Morocco",
+      "visitante": "Haiti",
+      "placar_previsto": "3-0"
+    },
+    {
+      "data": "2026-06-25",
+      "horario_brt": "23:00",
+      "grupo": "D",
+      "mandante": "Türkiye",
+      "visitante": "United States",
+      "placar_previsto": "1-2"
+    },
+    {
+      "data": "2026-06-25",
+      "horario_brt": "23:00",
+      "grupo": "D",
+      "mandante": "Paraguay",
+      "visitante": "Australia",
+      "placar_previsto": "1-1"
+    },
+    {
+      "data": "2026-06-25",
+      "horario_brt": "17:00",
+      "grupo": "E",
+      "mandante": "Ecuador",
+      "visitante": "Germany",
+      "placar_previsto": "0-2"
+    },
+    {
+      "data": "2026-06-25",
+      "horario_brt": "17:00",
+      "grupo": "E",
+      "mandante": "Curacao",
+      "visitante": "Ivory Coast",
+      "placar_previsto": "0-2"
+    },
+    {
+      "data": "2026-06-25",
+      "horario_brt": "20:00",
+      "grupo": "F",
+      "mandante": "Japan",
+      "visitante": "Sweden",
+      "placar_previsto": "1-1"
+    },
+    {
+      "data": "2026-06-25",
+      "horario_brt": "20:00",
+      "grupo": "F",
+      "mandante": "Tunisia",
+      "visitante": "Netherlands",
+      "placar_previsto": "0-2"
+    },
+    {
+      "data": "2026-06-26",
+      "horario_brt": "00:00",
+      "grupo": "G",
+      "mandante": "Egypt",
+      "visitante": "Iran",
+      "placar_previsto": "2-2"
+    },
+    {
+      "data": "2026-06-26",
+      "horario_brt": "00:00",
+      "grupo": "G",
+      "mandante": "New Zealand",
+      "visitante": "Belgium",
+      "placar_previsto": "0-3"
+    },
+    {
+      "data": "2026-06-26",
+      "horario_brt": "21:00",
+      "grupo": "H",
+      "mandante": "Cape Verde",
+      "visitante": "Saudi Arabia",
+      "placar_previsto": "1-1"
+    },
+    {
+      "data": "2026-06-26",
+      "horario_brt": "21:00",
+      "grupo": "H",
+      "mandante": "Uruguay",
+      "visitante": "Spain",
+      "placar_previsto": "0-2"
+    },
+    {
+      "data": "2026-06-26",
+      "horario_brt": "16:00",
+      "grupo": "I",
+      "mandante": "Norway",
+      "visitante": "France",
+      "placar_previsto": "1-2"
+    },
+    {
+      "data": "2026-06-26",
+      "horario_brt": "16:00",
+      "grupo": "I",
+      "mandante": "Senegal",
+      "visitante": "Iraq",
+      "placar_previsto": "3-0"
+    },
+    {
+      "data": "2026-06-27",
+      "horario_brt": "23:00",
+      "grupo": "J",
+      "mandante": "Algeria",
+      "visitante": "Austria",
+      "placar_previsto": "1-1"
+    },
+    {
+      "data": "2026-06-27",
+      "horario_brt": "23:00",
+      "grupo": "J",
+      "mandante": "Jordan",
+      "visitante": "Argentina",
+      "placar_previsto": "0-3"
+    },
+    {
+      "data": "2026-06-27",
+      "horario_brt": "20:30",
+      "grupo": "K",
+      "mandante": "Colombia",
+      "visitante": "Portugal",
+      "placar_previsto": "0-1"
+    },
+    {
+      "data": "2026-06-27",
+      "horario_brt": "20:30",
+      "grupo": "K",
+      "mandante": "Congo DR",
+      "visitante": "Uzbekistan",
+      "placar_previsto": "1-1"
+    },
+    {
+      "data": "2026-06-27",
+      "horario_brt": "18:00",
+      "grupo": "L",
+      "mandante": "Panama",
+      "visitante": "England",
+      "placar_previsto": "0-3"
+    },
+    {
+      "data": "2026-06-27",
+      "horario_brt": "18:00",
+      "grupo": "L",
+      "mandante": "Croatia",
+      "visitante": "Ghana",
+      "placar_previsto": "2-1"
+    }
+  ]
+}
