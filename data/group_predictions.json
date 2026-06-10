@@ -1,0 +1,3320 @@
+{
+  "_generated_at": "2026-06-10T16:21:01.508603",
+  "_model_version": "Elo(40%) + Poisson(35%) + XGBoost(25%)",
+  "_note": "Previsões geradas ANTES dos jogos. Use group_results.json para registrar os resultados reais.",
+  "total_matches": 72,
+  "predictions": [
+    {
+      "group": "A",
+      "matchday": 1,
+      "date": "2026-06-11",
+      "time_brt": "16:00",
+      "venue": "Estadio Azteca, Cidade do México",
+      "home": "Mexico",
+      "away": "South Africa",
+      "squad_source_home": "official",
+      "squad_source_away": "recent_games",
+      "prob_win_home": 0.5687,
+      "prob_draw": 0.1861,
+      "prob_win_away": 0.2453,
+      "predicted_score_home": 3,
+      "predicted_score_away": 1,
+      "expected_goals_home": 3.1,
+      "expected_goals_away": 1.2,
+      "lambda_home": 3.191,
+      "lambda_away": 1.247,
+      "elo_home": 1825.0,
+      "elo_away": 1800.0,
+      "elo_diff": 25.0,
+      "team_score_home": 7.315,
+      "team_score_away": 6.486,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.4199,
+          "draw": 0.2319,
+          "win_away": 0.3481,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.7386,
+          "draw": 0.1337,
+          "win_away": 0.1277,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "A",
+      "matchday": 1,
+      "date": "2026-06-11",
+      "time_brt": "23:00",
+      "venue": "Estadio Akron, Guadalajara",
+      "home": "South Korea",
+      "away": "Czechia",
+      "squad_source_home": "official",
+      "squad_source_away": "recent_games",
+      "prob_win_home": 0.4416,
+      "prob_draw": 0.2291,
+      "prob_win_away": 0.3293,
+      "predicted_score_home": 1,
+      "predicted_score_away": 1,
+      "expected_goals_home": 2.0,
+      "expected_goals_away": 1.3,
+      "lambda_home": 1.97,
+      "lambda_away": 1.281,
+      "elo_home": 1790.0,
+      "elo_away": 1800.0,
+      "elo_diff": -10.0,
+      "team_score_home": 7.735,
+      "team_score_away": 7.099,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.3643,
+          "draw": 0.2426,
+          "win_away": 0.3931,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.5299,
+          "draw": 0.2137,
+          "win_away": 0.2564,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "B",
+      "matchday": 1,
+      "date": "2026-06-12",
+      "time_brt": "16:00",
+      "venue": "BMO Field, Toronto",
+      "home": "Canada",
+      "away": "Bosnia-Herzegovina",
+      "squad_source_home": "official",
+      "squad_source_away": "recent_games",
+      "prob_win_home": 0.4735,
+      "prob_draw": 0.2015,
+      "prob_win_away": 0.325,
+      "predicted_score_home": 2,
+      "predicted_score_away": 1,
+      "expected_goals_home": 2.4,
+      "expected_goals_away": 1.2,
+      "lambda_home": 2.454,
+      "lambda_away": 1.215,
+      "elo_home": 1760.0,
+      "elo_away": 1800.0,
+      "elo_diff": -40.0,
+      "team_score_home": 7.455,
+      "team_score_away": 6.696,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.3318,
+          "draw": 0.2217,
+          "win_away": 0.4464,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.6354,
+          "draw": 0.1784,
+          "win_away": 0.1862,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "D",
+      "matchday": 1,
+      "date": "2026-06-12",
+      "time_brt": "22:00",
+      "venue": "SoFi Stadium, Los Angeles",
+      "home": "United States",
+      "away": "Paraguay",
+      "squad_source_home": "official",
+      "squad_source_away": "recent_games",
+      "prob_win_home": 0.6099,
+      "prob_draw": 0.1742,
+      "prob_win_away": 0.2159,
+      "predicted_score_home": 2,
+      "predicted_score_away": 1,
+      "expected_goals_home": 2.6,
+      "expected_goals_away": 1.2,
+      "lambda_home": 2.632,
+      "lambda_away": 1.181,
+      "elo_home": 1800.0,
+      "elo_away": 1695.0,
+      "elo_diff": 105.0,
+      "team_score_home": 7.662,
+      "team_score_away": 6.743,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.5554,
+          "draw": 0.1824,
+          "win_away": 0.2621,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.6721,
+          "draw": 0.1648,
+          "win_away": 0.1631,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "B",
+      "matchday": 1,
+      "date": "2026-06-13",
+      "time_brt": "16:00",
+      "venue": "Levi's Stadium, San Jose",
+      "home": "Qatar",
+      "away": "Switzerland",
+      "squad_source_home": "recent_games",
+      "squad_source_away": "official",
+      "prob_win_home": 0.1582,
+      "prob_draw": 0.1393,
+      "prob_win_away": 0.7025,
+      "predicted_score_home": 0,
+      "predicted_score_away": 3,
+      "expected_goals_home": 0.7,
+      "expected_goals_away": 3.2,
+      "lambda_home": 0.663,
+      "lambda_away": 3.32,
+      "elo_home": 1720.0,
+      "elo_away": 1835.0,
+      "elo_diff": -115.0,
+      "team_score_home": 6.723,
+      "team_score_away": 7.997,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.2518,
+          "draw": 0.1771,
+          "win_away": 0.5712,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.0512,
+          "draw": 0.0961,
+          "win_away": 0.8527,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "C",
+      "matchday": 1,
+      "date": "2026-06-13",
+      "time_brt": "19:00",
+      "venue": "MetLife Stadium, Nova York",
+      "home": "Brazil",
+      "away": "Morocco",
+      "squad_source_home": "official",
+      "squad_source_away": "official",
+      "prob_win_home": 0.5554,
+      "prob_draw": 0.1782,
+      "prob_win_away": 0.2664,
+      "predicted_score_home": 1,
+      "predicted_score_away": 1,
+      "expected_goals_home": 1.6,
+      "expected_goals_away": 1.6,
+      "lambda_home": 1.554,
+      "lambda_away": 1.566,
+      "elo_home": 2091.0,
+      "elo_away": 1878.0,
+      "elo_diff": 213.0,
+      "team_score_home": 8.183,
+      "team_score_away": 8.145,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.7072,
+          "draw": 0.132,
+          "win_away": 0.1609,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.3819,
+          "draw": 0.231,
+          "win_away": 0.3871,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "C",
+      "matchday": 1,
+      "date": "2026-06-13",
+      "time_brt": "22:00",
+      "venue": "Gillette Stadium, Boston",
+      "home": "Haiti",
+      "away": "Scotland",
+      "squad_source_home": "estimated",
+      "squad_source_away": "official",
+      "prob_win_home": 0.2182,
+      "prob_draw": 0.174,
+      "prob_win_away": 0.6079,
+      "predicted_score_home": 0,
+      "predicted_score_away": 3,
+      "expected_goals_home": 0.5,
+      "expected_goals_away": 3.2,
+      "lambda_home": 0.535,
+      "lambda_away": 3.32,
+      "elo_home": 1800.0,
+      "elo_away": 1800.0,
+      "elo_diff": 0.0,
+      "team_score_home": 5.784,
+      "team_score_away": 7.592,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.375,
+          "draw": 0.25,
+          "win_away": 0.375,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.0389,
+          "draw": 0.0871,
+          "win_away": 0.874,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "D",
+      "matchday": 1,
+      "date": "2026-06-13",
+      "time_brt": "01:00",
+      "venue": "BC Place, Vancouver",
+      "home": "Australia",
+      "away": "Türkiye",
+      "squad_source_home": "official",
+      "squad_source_away": "recent_games",
+      "prob_win_home": 0.3701,
+      "prob_draw": 0.2395,
+      "prob_win_away": 0.3903,
+      "predicted_score_home": 1,
+      "predicted_score_away": 1,
+      "expected_goals_home": 1.5,
+      "expected_goals_away": 1.6,
+      "lambda_home": 1.521,
+      "lambda_away": 1.585,
+      "elo_home": 1795.0,
+      "elo_away": 1800.0,
+      "elo_diff": -5.0,
+      "team_score_home": 7.223,
+      "team_score_away": 7.07,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.3697,
+          "draw": 0.2463,
+          "win_away": 0.3841,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.3707,
+          "draw": 0.2318,
+          "win_away": 0.3975,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "E",
+      "matchday": 1,
+      "date": "2026-06-14",
+      "time_brt": "14:00",
+      "venue": "NRG Stadium, Houston",
+      "home": "Germany",
+      "away": "Curacao",
+      "squad_source_home": "official",
+      "squad_source_away": "estimated",
+      "prob_win_home": 0.7617,
+      "prob_draw": 0.1189,
+      "prob_win_away": 0.1194,
+      "predicted_score_home": 3,
+      "predicted_score_away": 0,
+      "expected_goals_home": 3.2,
+      "expected_goals_away": 0.5,
+      "lambda_home": 3.32,
+      "lambda_away": 0.547,
+      "elo_home": 1980.0,
+      "elo_away": 1800.0,
+      "elo_diff": 180.0,
+      "team_score_home": 8.291,
+      "team_score_away": 6.202,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.6653,
+          "draw": 0.1457,
+          "win_away": 0.189,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.8719,
+          "draw": 0.0883,
+          "win_away": 0.0398,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "E",
+      "matchday": 1,
+      "date": "2026-06-14",
+      "time_brt": "20:00",
+      "venue": "Lincoln Financial Field, Philadelphia",
+      "home": "Ivory Coast",
+      "away": "Ecuador",
+      "squad_source_home": "recent_games",
+      "squad_source_away": "recent_games",
+      "prob_win_home": 0.3176,
+      "prob_draw": 0.2026,
+      "prob_win_away": 0.4798,
+      "predicted_score_home": 1,
+      "predicted_score_away": 1,
+      "expected_goals_home": 1.5,
+      "expected_goals_away": 1.3,
+      "lambda_home": 1.514,
+      "lambda_away": 1.336,
+      "elo_home": 1665.0,
+      "elo_away": 1800.0,
+      "elo_diff": -135.0,
+      "team_score_home": 7.291,
+      "team_score_away": 7.323,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.2316,
+          "draw": 0.1667,
+          "win_away": 0.6017,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.4159,
+          "draw": 0.2436,
+          "win_away": 0.3405,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "F",
+      "matchday": 1,
+      "date": "2026-06-14",
+      "time_brt": "17:00",
+      "venue": "AT&T Stadium, Dallas",
+      "home": "Netherlands",
+      "away": "Japan",
+      "squad_source_home": "official",
+      "squad_source_away": "official",
+      "prob_win_home": 0.5321,
+      "prob_draw": 0.1967,
+      "prob_win_away": 0.2711,
+      "predicted_score_home": 1,
+      "predicted_score_away": 1,
+      "expected_goals_home": 1.9,
+      "expected_goals_away": 1.4,
+      "lambda_home": 1.913,
+      "lambda_away": 1.386,
+      "elo_home": 1975.0,
+      "elo_away": 1865.0,
+      "elo_diff": 110.0,
+      "team_score_home": 8.147,
+      "team_score_away": 8.054,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.5634,
+          "draw": 0.1797,
+          "win_away": 0.2569,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.4963,
+          "draw": 0.2162,
+          "win_away": 0.2874,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "F",
+      "matchday": 1,
+      "date": "2026-06-14",
+      "time_brt": "23:00",
+      "venue": "Estadio BBVA, Monterrey",
+      "home": "Sweden",
+      "away": "Tunisia",
+      "squad_source_home": "recent_games",
+      "squad_source_away": "recent_games",
+      "prob_win_home": 0.6215,
+      "prob_draw": 0.1722,
+      "prob_win_away": 0.2063,
+      "predicted_score_home": 2,
+      "predicted_score_away": 0,
+      "expected_goals_home": 2.8,
+      "expected_goals_away": 0.9,
+      "lambda_home": 2.863,
+      "lambda_away": 0.892,
+      "elo_home": 1800.0,
+      "elo_away": 1730.0,
+      "elo_diff": 70.0,
+      "team_score_home": 7.627,
+      "team_score_away": 6.987,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.4981,
+          "draw": 0.2026,
+          "win_away": 0.2993,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.7625,
+          "draw": 0.1375,
+          "win_away": 0.1,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "G",
+      "matchday": 1,
+      "date": "2026-06-15",
+      "time_brt": "19:00",
+      "venue": "Lumen Field, Seattle",
+      "home": "Belgium",
+      "away": "Egypt",
+      "squad_source_home": "official",
+      "squad_source_away": "recent_games",
+      "prob_win_home": 0.7769,
+      "prob_draw": 0.1147,
+      "prob_win_away": 0.1084,
+      "predicted_score_home": 3,
+      "predicted_score_away": 0,
+      "expected_goals_home": 3.2,
+      "expected_goals_away": 1.0,
+      "lambda_home": 3.32,
+      "lambda_away": 1.031,
+      "elo_home": 1935.0,
+      "elo_away": 1670.0,
+      "elo_diff": 265.0,
+      "team_score_home": 8.302,
+      "team_score_away": 7.018,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.7649,
+          "draw": 0.1129,
+          "win_away": 0.1222,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.7906,
+          "draw": 0.1168,
+          "win_away": 0.0926,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "G",
+      "matchday": 1,
+      "date": "2026-06-15",
+      "time_brt": "01:00",
+      "venue": "SoFi Stadium, Los Angeles",
+      "home": "Iran",
+      "away": "New Zealand",
+      "squad_source_home": "recent_games",
+      "squad_source_away": "recent_games",
+      "prob_win_home": 0.4034,
+      "prob_draw": 0.209,
+      "prob_win_away": 0.3876,
+      "predicted_score_home": 1,
+      "predicted_score_away": 1,
+      "expected_goals_home": 2.0,
+      "expected_goals_away": 1.3,
+      "lambda_home": 1.969,
+      "lambda_away": 1.347,
+      "elo_home": 1735.0,
+      "elo_away": 1800.0,
+      "elo_diff": -65.0,
+      "team_score_home": 7.081,
+      "team_score_away": 6.38,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.3047,
+          "draw": 0.2057,
+          "win_away": 0.4896,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.5162,
+          "draw": 0.2128,
+          "win_away": 0.271,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "H",
+      "matchday": 1,
+      "date": "2026-06-15",
+      "time_brt": "14:00",
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "home": "Spain",
+      "away": "Cape Verde",
+      "squad_source_home": "official",
+      "squad_source_away": "recent_games",
+      "prob_win_home": 0.7884,
+      "prob_draw": 0.1099,
+      "prob_win_away": 0.1017,
+      "predicted_score_home": 3,
+      "predicted_score_away": 0,
+      "expected_goals_home": 3.2,
+      "expected_goals_away": 0.6,
+      "lambda_home": 3.32,
+      "lambda_away": 0.551,
+      "elo_home": 2020.0,
+      "elo_away": 1800.0,
+      "elo_diff": 220.0,
+      "team_score_home": 8.718,
+      "team_score_away": 6.277,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.7155,
+          "draw": 0.1292,
+          "win_away": 0.1553,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.8717,
+          "draw": 0.0879,
+          "win_away": 0.0404,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "H",
+      "matchday": 1,
+      "date": "2026-06-15",
+      "time_brt": "19:00",
+      "venue": "Hard Rock Stadium, Miami",
+      "home": "Saudi Arabia",
+      "away": "Uruguay",
+      "squad_source_home": "recent_games",
+      "squad_source_away": "official",
+      "prob_win_home": 0.1511,
+      "prob_draw": 0.1511,
+      "prob_win_away": 0.6978,
+      "predicted_score_home": 0,
+      "predicted_score_away": 2,
+      "expected_goals_home": 0.8,
+      "expected_goals_away": 2.5,
+      "lambda_home": 0.801,
+      "lambda_away": 2.545,
+      "elo_home": 1740.0,
+      "elo_away": 1920.0,
+      "elo_diff": -180.0,
+      "team_score_home": 6.973,
+      "team_score_away": 7.603,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.189,
+          "draw": 0.1457,
+          "win_away": 0.6653,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.1078,
+          "draw": 0.1572,
+          "win_away": 0.735,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "I",
+      "matchday": 1,
+      "date": "2026-06-16",
+      "time_brt": "16:00",
+      "venue": "MetLife Stadium, Nova York",
+      "home": "France",
+      "away": "Senegal",
+      "squad_source_home": "official",
+      "squad_source_away": "official",
+      "prob_win_home": 0.6602,
+      "prob_draw": 0.1577,
+      "prob_win_away": 0.182,
+      "predicted_score_home": 2,
+      "predicted_score_away": 1,
+      "expected_goals_home": 2.3,
+      "expected_goals_away": 1.3,
+      "lambda_home": 2.278,
+      "lambda_away": 1.27,
+      "elo_home": 2063.0,
+      "elo_away": 1840.0,
+      "elo_diff": 223.0,
+      "team_score_home": 8.208,
+      "team_score_away": 7.841,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.719,
+          "draw": 0.1281,
+          "win_away": 0.1529,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.5931,
+          "draw": 0.1916,
+          "win_away": 0.2153,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "I",
+      "matchday": 1,
+      "date": "2026-06-16",
+      "time_brt": "19:00",
+      "venue": "Gillette Stadium, Boston",
+      "home": "Iraq",
+      "away": "Norway",
+      "squad_source_home": "estimated",
+      "squad_source_away": "recent_games",
+      "prob_win_home": 0.2322,
+      "prob_draw": 0.1827,
+      "prob_win_away": 0.5851,
+      "predicted_score_home": 0,
+      "predicted_score_away": 3,
+      "expected_goals_home": 0.8,
+      "expected_goals_away": 3.2,
+      "lambda_home": 0.831,
+      "lambda_away": 3.32,
+      "elo_home": 1800.0,
+      "elo_away": 1800.0,
+      "elo_diff": 0.0,
+      "team_score_home": 6.111,
+      "team_score_away": 7.719,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.375,
+          "draw": 0.25,
+          "win_away": 0.375,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.069,
+          "draw": 0.1057,
+          "win_away": 0.8253,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "J",
+      "matchday": 1,
+      "date": "2026-06-16",
+      "time_brt": "22:00",
+      "venue": "Arrowhead Stadium, Kansas City",
+      "home": "Argentina",
+      "away": "Algeria",
+      "squad_source_home": "official",
+      "squad_source_away": "recent_games",
+      "prob_win_home": 0.8472,
+      "prob_draw": 0.0973,
+      "prob_win_away": 0.0555,
+      "predicted_score_home": 2,
+      "predicted_score_away": 0,
+      "expected_goals_home": 2.7,
+      "expected_goals_away": 0.7,
+      "lambda_home": 2.684,
+      "lambda_away": 0.685,
+      "elo_home": 2142.0,
+      "elo_away": 1675.0,
+      "elo_diff": 467.0,
+      "team_score_home": 8.488,
+      "team_score_away": 6.943,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.9055,
+          "draw": 0.0616,
+          "win_away": 0.0329,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.7805,
+          "draw": 0.1382,
+          "win_away": 0.0813,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "J",
+      "matchday": 1,
+      "date": "2026-06-16",
+      "time_brt": "01:00",
+      "venue": "Levi's Stadium, San Jose",
+      "home": "Austria",
+      "away": "Jordan",
+      "squad_source_home": "recent_games",
+      "squad_source_away": "estimated",
+      "prob_win_home": 0.5848,
+      "prob_draw": 0.1849,
+      "prob_win_away": 0.2303,
+      "predicted_score_home": 2,
+      "predicted_score_away": 0,
+      "expected_goals_home": 3.1,
+      "expected_goals_away": 0.7,
+      "lambda_home": 3.125,
+      "lambda_away": 0.722,
+      "elo_home": 1800.0,
+      "elo_away": 1800.0,
+      "elo_diff": 0.0,
+      "team_score_home": 7.165,
+      "team_score_away": 5.933,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.375,
+          "draw": 0.25,
+          "win_away": 0.375,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.8246,
+          "draw": 0.1104,
+          "win_away": 0.065,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "K",
+      "matchday": 1,
+      "date": "2026-06-17",
+      "time_brt": "14:00",
+      "venue": "NRG Stadium, Houston",
+      "home": "Portugal",
+      "away": "Congo DR",
+      "squad_source_home": "official",
+      "squad_source_away": "recent_games",
+      "prob_win_home": 0.747,
+      "prob_draw": 0.1241,
+      "prob_win_away": 0.1289,
+      "predicted_score_home": 3,
+      "predicted_score_away": 0,
+      "expected_goals_home": 3.2,
+      "expected_goals_away": 0.7,
+      "lambda_home": 3.32,
+      "lambda_away": 0.652,
+      "elo_home": 1970.0,
+      "elo_away": 1800.0,
+      "elo_diff": 170.0,
+      "team_score_home": 8.007,
+      "team_score_away": 6.461,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.6518,
+          "draw": 0.1501,
+          "win_away": 0.1981,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.8558,
+          "draw": 0.0943,
+          "win_away": 0.0499,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "K",
+      "matchday": 1,
+      "date": "2026-06-17",
+      "time_brt": "23:00",
+      "venue": "Estadio Azteca, Cidade do México",
+      "home": "Uzbekistan",
+      "away": "Colombia",
+      "squad_source_home": "recent_games",
+      "squad_source_away": "official",
+      "prob_win_home": 0.1804,
+      "prob_draw": 0.1509,
+      "prob_win_away": 0.6687,
+      "predicted_score_home": 0,
+      "predicted_score_away": 3,
+      "expected_goals_home": 0.8,
+      "expected_goals_away": 3.2,
+      "lambda_home": 0.829,
+      "lambda_away": 3.32,
+      "elo_home": 1800.0,
+      "elo_away": 1890.0,
+      "elo_diff": -90.0,
+      "team_score_home": 6.159,
+      "team_score_away": 7.536,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.2779,
+          "draw": 0.1908,
+          "win_away": 0.5313,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.069,
+          "draw": 0.1053,
+          "win_away": 0.8257,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "L",
+      "matchday": 1,
+      "date": "2026-06-17",
+      "time_brt": "17:00",
+      "venue": "AT&T Stadium, Dallas",
+      "home": "England",
+      "away": "Croatia",
+      "squad_source_home": "official",
+      "squad_source_away": "official",
+      "prob_win_home": 0.5171,
+      "prob_draw": 0.2032,
+      "prob_win_away": 0.2797,
+      "predicted_score_home": 2,
+      "predicted_score_away": 1,
+      "expected_goals_home": 2.4,
+      "expected_goals_away": 1.4,
+      "lambda_home": 2.37,
+      "lambda_away": 1.401,
+      "elo_home": 1983.0,
+      "elo_away": 1935.0,
+      "elo_diff": 48.0,
+      "team_score_home": 8.536,
+      "team_score_away": 8.078,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.4604,
+          "draw": 0.2165,
+          "win_away": 0.3231,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.5818,
+          "draw": 0.188,
+          "win_away": 0.2302,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "L",
+      "matchday": 1,
+      "date": "2026-06-17",
+      "time_brt": "20:00",
+      "venue": "BMO Field, Toronto",
+      "home": "Ghana",
+      "away": "Panama",
+      "squad_source_home": "recent_games",
+      "squad_source_away": "recent_games",
+      "prob_win_home": 0.5963,
+      "prob_draw": 0.1797,
+      "prob_win_away": 0.224,
+      "predicted_score_home": 2,
+      "predicted_score_away": 0,
+      "expected_goals_home": 2.8,
+      "expected_goals_away": 1.0,
+      "lambda_home": 2.835,
+      "lambda_away": 1.049,
+      "elo_home": 1745.0,
+      "elo_away": 1685.0,
+      "elo_diff": 60.0,
+      "team_score_home": 7.368,
+      "team_score_away": 6.214,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.4811,
+          "draw": 0.2088,
+          "win_away": 0.3101,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.728,
+          "draw": 0.1464,
+          "win_away": 0.1256,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "A",
+      "matchday": 2,
+      "date": "2026-06-18",
+      "time_brt": "13:00",
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "home": "Czechia",
+      "away": "South Africa",
+      "squad_source_home": "recent_games",
+      "squad_source_away": "recent_games",
+      "prob_win_home": 0.5323,
+      "prob_draw": 0.2062,
+      "prob_win_away": 0.2615,
+      "predicted_score_home": 2,
+      "predicted_score_away": 0,
+      "expected_goals_home": 2.6,
+      "expected_goals_away": 1.0,
+      "lambda_home": 2.676,
+      "lambda_away": 1.014,
+      "elo_home": 1800.0,
+      "elo_away": 1800.0,
+      "elo_diff": 0.0,
+      "team_score_home": 7.096,
+      "team_score_away": 6.482,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.375,
+          "draw": 0.25,
+          "win_away": 0.375,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.712,
+          "draw": 0.1562,
+          "win_away": 0.1318,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "A",
+      "matchday": 2,
+      "date": "2026-06-18",
+      "time_brt": "00:00",
+      "venue": "Estadio Akron, Guadalajara",
+      "home": "Mexico",
+      "away": "South Korea",
+      "squad_source_home": "official",
+      "squad_source_away": "official",
+      "prob_win_home": 0.3468,
+      "prob_draw": 0.2059,
+      "prob_win_away": 0.4473,
+      "predicted_score_home": 1,
+      "predicted_score_away": 2,
+      "expected_goals_home": 1.5,
+      "expected_goals_away": 2.4,
+      "lambda_home": 1.531,
+      "lambda_away": 2.464,
+      "elo_home": 1825.0,
+      "elo_away": 1790.0,
+      "elo_diff": 35.0,
+      "team_score_home": 7.313,
+      "team_score_away": 7.739,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.4377,
+          "draw": 0.2251,
+          "win_away": 0.3373,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.2429,
+          "draw": 0.184,
+          "win_away": 0.5731,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "B",
+      "matchday": 2,
+      "date": "2026-06-18",
+      "time_brt": "16:00",
+      "venue": "SoFi Stadium, Los Angeles",
+      "home": "Switzerland",
+      "away": "Bosnia-Herzegovina",
+      "squad_source_home": "official",
+      "squad_source_away": "recent_games",
+      "prob_win_home": 0.5843,
+      "prob_draw": 0.1865,
+      "prob_win_away": 0.2292,
+      "predicted_score_home": 2,
+      "predicted_score_away": 0,
+      "expected_goals_home": 2.8,
+      "expected_goals_away": 0.9,
+      "lambda_home": 2.795,
+      "lambda_away": 0.898,
+      "elo_home": 1835.0,
+      "elo_away": 1800.0,
+      "elo_diff": 35.0,
+      "team_score_home": 7.985,
+      "team_score_away": 6.703,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.4377,
+          "draw": 0.2251,
+          "win_away": 0.3373,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.7519,
+          "draw": 0.1425,
+          "win_away": 0.1056,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "B",
+      "matchday": 2,
+      "date": "2026-06-18",
+      "time_brt": "19:00",
+      "venue": "BC Place, Vancouver",
+      "home": "Canada",
+      "away": "Qatar",
+      "squad_source_home": "official",
+      "squad_source_away": "recent_games",
+      "prob_win_home": 0.6102,
+      "prob_draw": 0.1736,
+      "prob_win_away": 0.2162,
+      "predicted_score_home": 2,
+      "predicted_score_away": 0,
+      "expected_goals_home": 3.1,
+      "expected_goals_away": 0.9,
+      "lambda_home": 3.145,
+      "lambda_away": 0.887,
+      "elo_home": 1760.0,
+      "elo_away": 1720.0,
+      "elo_diff": 40.0,
+      "team_score_home": 7.465,
+      "team_score_away": 6.713,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.4464,
+          "draw": 0.2217,
+          "win_away": 0.3318,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.7973,
+          "draw": 0.1187,
+          "win_away": 0.084,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "C",
+      "matchday": 2,
+      "date": "2026-06-19",
+      "time_brt": "19:00",
+      "venue": "Gillette Stadium, Boston",
+      "home": "Scotland",
+      "away": "Morocco",
+      "squad_source_home": "official",
+      "squad_source_away": "official",
+      "prob_win_home": 0.2753,
+      "prob_draw": 0.2151,
+      "prob_win_away": 0.5097,
+      "predicted_score_home": 0,
+      "predicted_score_away": 1,
+      "expected_goals_home": 1.1,
+      "expected_goals_away": 1.7,
+      "lambda_home": 1.115,
+      "lambda_away": 1.709,
+      "elo_home": 1800.0,
+      "elo_away": 1878.0,
+      "elo_diff": -78.0,
+      "team_score_home": 7.584,
+      "team_score_away": 8.145,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.2907,
+          "draw": 0.1978,
+          "win_away": 0.5115,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.2576,
+          "draw": 0.2348,
+          "win_away": 0.5076,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "C",
+      "matchday": 2,
+      "date": "2026-06-19",
+      "time_brt": "22:00",
+      "venue": "Lincoln Financial Field, Philadelphia",
+      "home": "Brazil",
+      "away": "Haiti",
+      "squad_source_home": "official",
+      "squad_source_away": "estimated",
+      "prob_win_home": 0.8326,
+      "prob_draw": 0.0948,
+      "prob_win_away": 0.0726,
+      "predicted_score_home": 3,
+      "predicted_score_away": 0,
+      "expected_goals_home": 3.2,
+      "expected_goals_away": 0.5,
+      "lambda_home": 3.32,
+      "lambda_away": 0.492,
+      "elo_home": 2091.0,
+      "elo_away": 1800.0,
+      "elo_diff": 291.0,
+      "team_score_home": 8.181,
+      "team_score_away": 5.784,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.79,
+          "draw": 0.1044,
+          "win_away": 0.1055,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.8811,
+          "draw": 0.0839,
+          "win_away": 0.035,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "D",
+      "matchday": 2,
+      "date": "2026-06-19",
+      "time_brt": "16:00",
+      "venue": "Lumen Field, Seattle",
+      "home": "United States",
+      "away": "Australia",
+      "squad_source_home": "official",
+      "squad_source_away": "official",
+      "prob_win_home": 0.452,
+      "prob_draw": 0.2275,
+      "prob_win_away": 0.3204,
+      "predicted_score_home": 1,
+      "predicted_score_away": 1,
+      "expected_goals_home": 2.1,
+      "expected_goals_away": 1.4,
+      "lambda_home": 2.077,
+      "lambda_away": 1.384,
+      "elo_home": 1800.0,
+      "elo_away": 1795.0,
+      "elo_diff": 5.0,
+      "team_score_home": 7.66,
+      "team_score_away": 7.24,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.3841,
+          "draw": 0.2463,
+          "win_away": 0.3697,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.5297,
+          "draw": 0.2061,
+          "win_away": 0.2642,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "D",
+      "matchday": 2,
+      "date": "2026-06-19",
+      "time_brt": "01:00",
+      "venue": "Levi's Stadium, San Jose",
+      "home": "Türkiye",
+      "away": "Paraguay",
+      "squad_source_home": "recent_games",
+      "squad_source_away": "recent_games",
+      "prob_win_home": 0.537,
+      "prob_draw": 0.1978,
+      "prob_win_away": 0.2652,
+      "predicted_score_home": 1,
+      "predicted_score_away": 1,
+      "expected_goals_home": 1.9,
+      "expected_goals_away": 1.3,
+      "lambda_home": 1.95,
+      "lambda_away": 1.323,
+      "elo_home": 1800.0,
+      "elo_away": 1695.0,
+      "elo_diff": 105.0,
+      "team_score_home": 7.062,
+      "team_score_away": 6.76,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.5554,
+          "draw": 0.1824,
+          "win_away": 0.2621,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.5159,
+          "draw": 0.2154,
+          "win_away": 0.2687,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "E",
+      "matchday": 2,
+      "date": "2026-06-20",
+      "time_brt": "17:00",
+      "venue": "BMO Field, Toronto",
+      "home": "Germany",
+      "away": "Ivory Coast",
+      "squad_source_home": "official",
+      "squad_source_away": "recent_games",
+      "prob_win_home": 0.787,
+      "prob_draw": 0.1142,
+      "prob_win_away": 0.0987,
+      "predicted_score_home": 2,
+      "predicted_score_away": 0,
+      "expected_goals_home": 2.9,
+      "expected_goals_away": 1.0,
+      "lambda_home": 2.993,
+      "lambda_away": 0.996,
+      "elo_home": 1980.0,
+      "elo_away": 1665.0,
+      "elo_diff": 315.0,
+      "team_score_home": 8.293,
+      "team_score_away": 7.286,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.8112,
+          "draw": 0.0972,
+          "win_away": 0.0917,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.7595,
+          "draw": 0.1337,
+          "win_away": 0.1068,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "E",
+      "matchday": 2,
+      "date": "2026-06-20",
+      "time_brt": "21:00",
+      "venue": "Arrowhead Stadium, Kansas City",
+      "home": "Ecuador",
+      "away": "Curacao",
+      "squad_source_home": "recent_games",
+      "squad_source_away": "estimated",
+      "prob_win_home": 0.5188,
+      "prob_draw": 0.2182,
+      "prob_win_away": 0.263,
+      "predicted_score_home": 2,
+      "predicted_score_away": 0,
+      "expected_goals_home": 2.2,
+      "expected_goals_away": 0.8,
+      "lambda_home": 2.257,
+      "lambda_away": 0.83,
+      "elo_home": 1800.0,
+      "elo_away": 1800.0,
+      "elo_diff": 0.0,
+      "team_score_home": 7.312,
+      "team_score_away": 6.207,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.375,
+          "draw": 0.25,
+          "win_away": 0.375,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.6831,
+          "draw": 0.1819,
+          "win_away": 0.135,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "F",
+      "matchday": 2,
+      "date": "2026-06-20",
+      "time_brt": "14:00",
+      "venue": "NRG Stadium, Houston",
+      "home": "Netherlands",
+      "away": "Sweden",
+      "squad_source_home": "official",
+      "squad_source_away": "recent_games",
+      "prob_win_home": 0.5822,
+      "prob_draw": 0.184,
+      "prob_win_away": 0.2338,
+      "predicted_score_home": 1,
+      "predicted_score_away": 1,
+      "expected_goals_home": 1.8,
+      "expected_goals_away": 1.3,
+      "lambda_home": 1.792,
+      "lambda_away": 1.266,
+      "elo_home": 1975.0,
+      "elo_away": 1800.0,
+      "elo_diff": 175.0,
+      "team_score_home": 8.137,
+      "team_score_away": 7.622,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.6586,
+          "draw": 0.1479,
+          "win_away": 0.1935,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.4949,
+          "draw": 0.2253,
+          "win_away": 0.2798,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "F",
+      "matchday": 2,
+      "date": "2026-06-20",
+      "time_brt": "01:00",
+      "venue": "Estadio BBVA, Monterrey",
+      "home": "Tunisia",
+      "away": "Japan",
+      "squad_source_home": "recent_games",
+      "squad_source_away": "official",
+      "prob_win_home": 0.1677,
+      "prob_draw": 0.1479,
+      "prob_win_away": 0.6844,
+      "predicted_score_home": 0,
+      "predicted_score_away": 2,
+      "expected_goals_home": 0.9,
+      "expected_goals_away": 3.0,
+      "lambda_home": 0.946,
+      "lambda_away": 3.086,
+      "elo_home": 1730.0,
+      "elo_away": 1865.0,
+      "elo_diff": -135.0,
+      "team_score_home": 6.992,
+      "team_score_away": 8.052,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.2316,
+          "draw": 0.1667,
+          "win_away": 0.6017,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.0946,
+          "draw": 0.1264,
+          "win_away": 0.779,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "G",
+      "matchday": 2,
+      "date": "2026-06-21",
+      "time_brt": "16:00",
+      "venue": "SoFi Stadium, Los Angeles",
+      "home": "Belgium",
+      "away": "Iran",
+      "squad_source_home": "official",
+      "squad_source_away": "recent_games",
+      "prob_win_home": 0.7478,
+      "prob_draw": 0.1248,
+      "prob_win_away": 0.1274,
+      "predicted_score_home": 3,
+      "predicted_score_away": 0,
+      "expected_goals_home": 3.2,
+      "expected_goals_away": 0.9,
+      "lambda_home": 3.32,
+      "lambda_away": 0.902,
+      "elo_home": 1935.0,
+      "elo_away": 1735.0,
+      "elo_diff": 200.0,
+      "team_score_home": 8.303,
+      "team_score_away": 7.078,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.6911,
+          "draw": 0.1372,
+          "win_away": 0.1717,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.8126,
+          "draw": 0.1106,
+          "win_away": 0.0768,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "G",
+      "matchday": 2,
+      "date": "2026-06-21",
+      "time_brt": "22:00",
+      "venue": "BC Place, Vancouver",
+      "home": "New Zealand",
+      "away": "Egypt",
+      "squad_source_home": "recent_games",
+      "squad_source_away": "recent_games",
+      "prob_win_home": 0.4321,
+      "prob_draw": 0.1816,
+      "prob_win_away": 0.3863,
+      "predicted_score_home": 1,
+      "predicted_score_away": 2,
+      "expected_goals_home": 1.4,
+      "expected_goals_away": 2.2,
+      "lambda_home": 1.391,
+      "lambda_away": 2.225,
+      "elo_home": 1800.0,
+      "elo_away": 1670.0,
+      "elo_diff": 130.0,
+      "team_score_home": 6.38,
+      "team_score_away": 7.022,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.5942,
+          "draw": 0.1693,
+          "win_away": 0.2366,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.2468,
+          "draw": 0.1957,
+          "win_away": 0.5575,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "H",
+      "matchday": 2,
+      "date": "2026-06-21",
+      "time_brt": "13:00",
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "home": "Spain",
+      "away": "Saudi Arabia",
+      "squad_source_home": "official",
+      "squad_source_away": "recent_games",
+      "prob_win_home": 0.8183,
+      "prob_draw": 0.1003,
+      "prob_win_away": 0.0814,
+      "predicted_score_home": 3,
+      "predicted_score_away": 0,
+      "expected_goals_home": 3.2,
+      "expected_goals_away": 0.6,
+      "lambda_home": 3.32,
+      "lambda_away": 0.606,
+      "elo_home": 2020.0,
+      "elo_away": 1740.0,
+      "elo_diff": 280.0,
+      "team_score_home": 8.725,
+      "team_score_away": 6.968,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.7797,
+          "draw": 0.1079,
+          "win_away": 0.1124,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.8625,
+          "draw": 0.0916,
+          "win_away": 0.0459,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "H",
+      "matchday": 2,
+      "date": "2026-06-21",
+      "time_brt": "19:00",
+      "venue": "Hard Rock Stadium, Miami",
+      "home": "Uruguay",
+      "away": "Cape Verde",
+      "squad_source_home": "official",
+      "squad_source_away": "recent_games",
+      "prob_win_home": 0.6877,
+      "prob_draw": 0.148,
+      "prob_win_away": 0.1643,
+      "predicted_score_home": 2,
+      "predicted_score_away": 0,
+      "expected_goals_home": 3.0,
+      "expected_goals_away": 0.7,
+      "lambda_home": 3.013,
+      "lambda_away": 0.724,
+      "elo_home": 1920.0,
+      "elo_away": 1800.0,
+      "elo_diff": 120.0,
+      "team_score_home": 7.615,
+      "team_score_away": 6.277,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.5789,
+          "draw": 0.1744,
+          "win_away": 0.2467,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.812,
+          "draw": 0.1178,
+          "win_away": 0.0702,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "I",
+      "matchday": 2,
+      "date": "2026-06-22",
+      "time_brt": "18:00",
+      "venue": "Lincoln Financial Field, Philadelphia",
+      "home": "France",
+      "away": "Iraq",
+      "squad_source_home": "official",
+      "squad_source_away": "estimated",
+      "prob_win_home": 0.8194,
+      "prob_draw": 0.0992,
+      "prob_win_away": 0.0814,
+      "predicted_score_home": 3,
+      "predicted_score_away": 0,
+      "expected_goals_home": 3.2,
+      "expected_goals_away": 0.5,
+      "lambda_home": 3.32,
+      "lambda_away": 0.471,
+      "elo_home": 2063.0,
+      "elo_away": 1800.0,
+      "elo_diff": 263.0,
+      "team_score_home": 8.201,
+      "team_score_away": 6.115,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.7629,
+          "draw": 0.1136,
+          "win_away": 0.1236,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.884,
+          "draw": 0.0828,
+          "win_away": 0.0332,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "I",
+      "matchday": 2,
+      "date": "2026-06-22",
+      "time_brt": "21:00",
+      "venue": "MetLife Stadium, Nova York",
+      "home": "Norway",
+      "away": "Senegal",
+      "squad_source_home": "recent_games",
+      "squad_source_away": "official",
+      "prob_win_home": 0.3676,
+      "prob_draw": 0.2046,
+      "prob_win_away": 0.4278,
+      "predicted_score_home": 2,
+      "predicted_score_away": 2,
+      "expected_goals_home": 2.3,
+      "expected_goals_away": 2.3,
+      "lambda_home": 2.287,
+      "lambda_away": 2.283,
+      "elo_home": 1800.0,
+      "elo_away": 1840.0,
+      "elo_diff": -40.0,
+      "team_score_home": 7.722,
+      "team_score_away": 7.853,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.3318,
+          "draw": 0.2217,
+          "win_away": 0.4464,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.4084,
+          "draw": 0.185,
+          "win_away": 0.4066,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "J",
+      "matchday": 2,
+      "date": "2026-06-22",
+      "time_brt": "14:00",
+      "venue": "AT&T Stadium, Dallas",
+      "home": "Argentina",
+      "away": "Austria",
+      "squad_source_home": "official",
+      "squad_source_away": "recent_games",
+      "prob_win_home": 0.7873,
+      "prob_draw": 0.121,
+      "prob_win_away": 0.0917,
+      "predicted_score_home": 2,
+      "predicted_score_away": 0,
+      "expected_goals_home": 2.5,
+      "expected_goals_away": 0.8,
+      "lambda_home": 2.524,
+      "lambda_away": 0.792,
+      "elo_home": 2142.0,
+      "elo_away": 1800.0,
+      "elo_diff": 342.0,
+      "team_score_home": 8.482,
+      "team_score_away": 7.158,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.8327,
+          "draw": 0.0896,
+          "win_away": 0.0777,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.7354,
+          "draw": 0.1568,
+          "win_away": 0.1078,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "J",
+      "matchday": 2,
+      "date": "2026-06-22",
+      "time_brt": "00:00",
+      "venue": "Levi's Stadium, San Jose",
+      "home": "Jordan",
+      "away": "Algeria",
+      "squad_source_home": "estimated",
+      "squad_source_away": "recent_games",
+      "prob_win_home": 0.3558,
+      "prob_draw": 0.1579,
+      "prob_win_away": 0.4863,
+      "predicted_score_home": 0,
+      "predicted_score_away": 2,
+      "expected_goals_home": 0.8,
+      "expected_goals_away": 2.7,
+      "lambda_home": 0.766,
+      "lambda_away": 2.707,
+      "elo_home": 1800.0,
+      "elo_away": 1675.0,
+      "elo_diff": 125.0,
+      "team_score_home": 5.935,
+      "team_score_away": 6.95,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.5866,
+          "draw": 0.1718,
+          "win_away": 0.2416,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.092,
+          "draw": 0.142,
+          "win_away": 0.766,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "K",
+      "matchday": 2,
+      "date": "2026-06-23",
+      "time_brt": "14:00",
+      "venue": "NRG Stadium, Houston",
+      "home": "Portugal",
+      "away": "Uzbekistan",
+      "squad_source_home": "official",
+      "squad_source_away": "recent_games",
+      "prob_win_home": 0.7538,
+      "prob_draw": 0.1214,
+      "prob_win_away": 0.1248,
+      "predicted_score_home": 3,
+      "predicted_score_away": 0,
+      "expected_goals_home": 3.2,
+      "expected_goals_away": 0.6,
+      "lambda_home": 3.32,
+      "lambda_away": 0.559,
+      "elo_home": 1970.0,
+      "elo_away": 1800.0,
+      "elo_diff": 170.0,
+      "team_score_home": 8.016,
+      "team_score_away": 6.156,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.6518,
+          "draw": 0.1501,
+          "win_away": 0.1981,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.8704,
+          "draw": 0.0885,
+          "win_away": 0.0411,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "K",
+      "matchday": 2,
+      "date": "2026-06-23",
+      "time_brt": "23:00",
+      "venue": "Estadio Akron, Guadalajara",
+      "home": "Colombia",
+      "away": "Congo DR",
+      "squad_source_home": "official",
+      "squad_source_away": "recent_games",
+      "prob_win_home": 0.647,
+      "prob_draw": 0.1603,
+      "prob_win_away": 0.1927,
+      "predicted_score_home": 2,
+      "predicted_score_away": 0,
+      "expected_goals_home": 3.1,
+      "expected_goals_away": 1.0,
+      "lambda_home": 3.113,
+      "lambda_away": 0.963,
+      "elo_home": 1890.0,
+      "elo_away": 1800.0,
+      "elo_diff": 90.0,
+      "team_score_home": 7.537,
+      "team_score_away": 6.458,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.5313,
+          "draw": 0.1908,
+          "win_away": 0.2779,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.7792,
+          "draw": 0.1254,
+          "win_away": 0.0954,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "L",
+      "matchday": 2,
+      "date": "2026-06-23",
+      "time_brt": "17:00",
+      "venue": "Gillette Stadium, Boston",
+      "home": "England",
+      "away": "Ghana",
+      "squad_source_home": "official",
+      "squad_source_away": "recent_games",
+      "prob_win_home": 0.7585,
+      "prob_draw": 0.1204,
+      "prob_win_away": 0.1211,
+      "predicted_score_home": 3,
+      "predicted_score_away": 0,
+      "expected_goals_home": 3.2,
+      "expected_goals_away": 1.1,
+      "lambda_home": 3.32,
+      "lambda_away": 1.075,
+      "elo_home": 1983.0,
+      "elo_away": 1745.0,
+      "elo_diff": 238.0,
+      "team_score_home": 8.525,
+      "team_score_away": 7.366,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.7362,
+          "draw": 0.1224,
+          "win_away": 0.1414,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.7839,
+          "draw": 0.1182,
+          "win_away": 0.0979,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "L",
+      "matchday": 2,
+      "date": "2026-06-23",
+      "time_brt": "20:00",
+      "venue": "BMO Field, Toronto",
+      "home": "Panama",
+      "away": "Croatia",
+      "squad_source_home": "recent_games",
+      "squad_source_away": "official",
+      "prob_win_home": 0.0922,
+      "prob_draw": 0.106,
+      "prob_win_away": 0.8018,
+      "predicted_score_home": 0,
+      "predicted_score_away": 3,
+      "expected_goals_home": 0.6,
+      "expected_goals_away": 3.2,
+      "lambda_home": 0.609,
+      "lambda_away": 3.32,
+      "elo_home": 1685.0,
+      "elo_away": 1935.0,
+      "elo_diff": -250.0,
+      "team_score_home": 6.209,
+      "team_score_away": 8.071,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.1326,
+          "draw": 0.1181,
+          "win_away": 0.7493,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.046,
+          "draw": 0.0921,
+          "win_away": 0.8619,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "A",
+      "matchday": 3,
+      "date": "2026-06-24",
+      "time_brt": "22:00",
+      "venue": "Estadio Azteca, Cidade do México",
+      "home": "Czechia",
+      "away": "Mexico",
+      "squad_source_home": "recent_games",
+      "squad_source_away": "official",
+      "prob_win_home": 0.3783,
+      "prob_draw": 0.2166,
+      "prob_win_away": 0.4051,
+      "predicted_score_home": 1,
+      "predicted_score_away": 1,
+      "expected_goals_home": 2.0,
+      "expected_goals_away": 2.0,
+      "lambda_home": 2.032,
+      "lambda_away": 1.966,
+      "elo_home": 1800.0,
+      "elo_away": 1825.0,
+      "elo_diff": -25.0,
+      "team_score_home": 7.099,
+      "team_score_away": 7.319,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.3481,
+          "draw": 0.2319,
+          "win_away": 0.4199,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.4127,
+          "draw": 0.1991,
+          "win_away": 0.3882,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "A",
+      "matchday": 3,
+      "date": "2026-06-24",
+      "time_brt": "22:00",
+      "venue": "Estadio BBVA, Monterrey",
+      "home": "South Africa",
+      "away": "South Korea",
+      "squad_source_home": "recent_games",
+      "squad_source_away": "official",
+      "prob_win_home": 0.2421,
+      "prob_draw": 0.1806,
+      "prob_win_away": 0.5773,
+      "predicted_score_home": 0,
+      "predicted_score_away": 3,
+      "expected_goals_home": 0.8,
+      "expected_goals_away": 3.1,
+      "lambda_home": 0.788,
+      "lambda_away": 3.205,
+      "elo_home": 1800.0,
+      "elo_away": 1790.0,
+      "elo_diff": 10.0,
+      "team_score_home": 6.485,
+      "team_score_away": 7.734,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.3931,
+          "draw": 0.2426,
+          "win_away": 0.3643,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.0696,
+          "draw": 0.1097,
+          "win_away": 0.8207,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "B",
+      "matchday": 3,
+      "date": "2026-06-24",
+      "time_brt": "16:00",
+      "venue": "BC Place, Vancouver",
+      "home": "Switzerland",
+      "away": "Canada",
+      "squad_source_home": "official",
+      "squad_source_away": "official",
+      "prob_win_home": 0.5219,
+      "prob_draw": 0.2051,
+      "prob_win_away": 0.273,
+      "predicted_score_home": 1,
+      "predicted_score_away": 1,
+      "expected_goals_home": 2.0,
+      "expected_goals_away": 1.3,
+      "lambda_home": 1.999,
+      "lambda_away": 1.262,
+      "elo_home": 1835.0,
+      "elo_away": 1760.0,
+      "elo_diff": 75.0,
+      "team_score_home": 8.002,
+      "team_score_away": 7.457,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.5065,
+          "draw": 0.1996,
+          "win_away": 0.2939,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.5396,
+          "draw": 0.2113,
+          "win_away": 0.2491,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "B",
+      "matchday": 3,
+      "date": "2026-06-24",
+      "time_brt": "16:00",
+      "venue": "Lumen Field, Seattle",
+      "home": "Bosnia-Herzegovina",
+      "away": "Qatar",
+      "squad_source_home": "recent_games",
+      "squad_source_away": "recent_games",
+      "prob_win_home": 0.5434,
+      "prob_draw": 0.1971,
+      "prob_win_away": 0.2595,
+      "predicted_score_home": 2,
+      "predicted_score_away": 1,
+      "expected_goals_home": 2.2,
+      "expected_goals_away": 1.3,
+      "lambda_home": 2.202,
+      "lambda_away": 1.279,
+      "elo_home": 1800.0,
+      "elo_away": 1720.0,
+      "elo_diff": 80.0,
+      "team_score_home": 6.698,
+      "team_score_away": 6.722,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.5148,
+          "draw": 0.1967,
+          "win_away": 0.2885,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.576,
+          "draw": 0.1976,
+          "win_away": 0.2264,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "C",
+      "matchday": 3,
+      "date": "2026-06-24",
+      "time_brt": "19:00",
+      "venue": "Hard Rock Stadium, Miami",
+      "home": "Scotland",
+      "away": "Brazil",
+      "squad_source_home": "official",
+      "squad_source_away": "official",
+      "prob_win_home": 0.1793,
+      "prob_draw": 0.158,
+      "prob_win_away": 0.6627,
+      "predicted_score_home": 1,
+      "predicted_score_away": 1,
+      "expected_goals_home": 1.3,
+      "expected_goals_away": 1.9,
+      "lambda_home": 1.255,
+      "lambda_away": 1.888,
+      "elo_home": 1800.0,
+      "elo_away": 2091.0,
+      "elo_diff": -291.0,
+      "team_score_home": 7.589,
+      "team_score_away": 8.185,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.1055,
+          "draw": 0.1044,
+          "win_away": 0.79,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.2636,
+          "draw": 0.2193,
+          "win_away": 0.5171,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "C",
+      "matchday": 3,
+      "date": "2026-06-24",
+      "time_brt": "19:00",
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "home": "Morocco",
+      "away": "Haiti",
+      "squad_source_home": "official",
+      "squad_source_away": "estimated",
+      "prob_win_home": 0.6869,
+      "prob_draw": 0.1434,
+      "prob_win_away": 0.1697,
+      "predicted_score_home": 3,
+      "predicted_score_away": 0,
+      "expected_goals_home": 3.2,
+      "expected_goals_away": 0.4,
+      "lambda_home": 3.32,
+      "lambda_away": 0.45,
+      "elo_home": 1878.0,
+      "elo_away": 1800.0,
+      "elo_diff": 78.0,
+      "team_score_home": 8.156,
+      "team_score_away": 5.779,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.5115,
+          "draw": 0.1978,
+          "win_away": 0.2907,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.8873,
+          "draw": 0.0813,
+          "win_away": 0.0314,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "D",
+      "matchday": 3,
+      "date": "2026-06-25",
+      "time_brt": "23:00",
+      "venue": "SoFi Stadium, Los Angeles",
+      "home": "Türkiye",
+      "away": "United States",
+      "squad_source_home": "recent_games",
+      "squad_source_away": "official",
+      "prob_win_home": 0.3269,
+      "prob_draw": 0.2215,
+      "prob_win_away": 0.4516,
+      "predicted_score_home": 1,
+      "predicted_score_away": 2,
+      "expected_goals_home": 1.6,
+      "expected_goals_away": 2.3,
+      "lambda_home": 1.609,
+      "lambda_away": 2.357,
+      "elo_home": 1800.0,
+      "elo_away": 1800.0,
+      "elo_diff": 0.0,
+      "team_score_home": 7.062,
+      "team_score_away": 7.654,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.375,
+          "draw": 0.25,
+          "win_away": 0.375,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.2719,
+          "draw": 0.189,
+          "win_away": 0.5391,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "D",
+      "matchday": 3,
+      "date": "2026-06-25",
+      "time_brt": "23:00",
+      "venue": "Levi's Stadium, San Jose",
+      "home": "Paraguay",
+      "away": "Australia",
+      "squad_source_home": "recent_games",
+      "squad_source_away": "official",
+      "prob_win_home": 0.2693,
+      "prob_draw": 0.2088,
+      "prob_win_away": 0.5219,
+      "predicted_score_home": 1,
+      "predicted_score_away": 1,
+      "expected_goals_home": 1.2,
+      "expected_goals_away": 1.7,
+      "lambda_home": 1.163,
+      "lambda_away": 1.691,
+      "elo_home": 1695.0,
+      "elo_away": 1795.0,
+      "elo_diff": -100.0,
+      "team_score_home": 6.755,
+      "team_score_away": 7.234,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.2673,
+          "draw": 0.1852,
+          "win_away": 0.5475,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.2717,
+          "draw": 0.2357,
+          "win_away": 0.4927,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "E",
+      "matchday": 3,
+      "date": "2026-06-25",
+      "time_brt": "17:00",
+      "venue": "MetLife Stadium, Nova York",
+      "home": "Ecuador",
+      "away": "Germany",
+      "squad_source_home": "recent_games",
+      "squad_source_away": "official",
+      "prob_win_home": 0.1445,
+      "prob_draw": 0.1414,
+      "prob_win_away": 0.7141,
+      "predicted_score_home": 0,
+      "predicted_score_away": 2,
+      "expected_goals_home": 0.8,
+      "expected_goals_away": 2.8,
+      "lambda_home": 0.831,
+      "lambda_away": 2.841,
+      "elo_home": 1800.0,
+      "elo_away": 1980.0,
+      "elo_diff": -180.0,
+      "team_score_home": 7.317,
+      "team_score_away": 8.296,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.189,
+          "draw": 0.1457,
+          "win_away": 0.6653,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.0936,
+          "draw": 0.1365,
+          "win_away": 0.7699,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "E",
+      "matchday": 3,
+      "date": "2026-06-25",
+      "time_brt": "17:00",
+      "venue": "Lincoln Financial Field, Philadelphia",
+      "home": "Curacao",
+      "away": "Ivory Coast",
+      "squad_source_home": "estimated",
+      "squad_source_away": "recent_games",
+      "prob_win_home": 0.3716,
+      "prob_draw": 0.1571,
+      "prob_win_away": 0.4713,
+      "predicted_score_home": 0,
+      "predicted_score_away": 2,
+      "expected_goals_home": 0.9,
+      "expected_goals_away": 2.7,
+      "lambda_home": 0.879,
+      "lambda_away": 2.723,
+      "elo_home": 1800.0,
+      "elo_away": 1665.0,
+      "elo_diff": 135.0,
+      "team_score_home": 6.209,
+      "team_score_away": 7.29,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.6017,
+          "draw": 0.1667,
+          "win_away": 0.2316,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.1086,
+          "draw": 0.1462,
+          "win_away": 0.7452,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "F",
+      "matchday": 3,
+      "date": "2026-06-25",
+      "time_brt": "20:00",
+      "venue": "AT&T Stadium, Dallas",
+      "home": "Japan",
+      "away": "Sweden",
+      "squad_source_home": "official",
+      "squad_source_away": "recent_games",
+      "prob_win_home": 0.4486,
+      "prob_draw": 0.2087,
+      "prob_win_away": 0.3427,
+      "predicted_score_home": 1,
+      "predicted_score_away": 1,
+      "expected_goals_home": 1.8,
+      "expected_goals_away": 1.8,
+      "lambda_home": 1.823,
+      "lambda_away": 1.782,
+      "elo_home": 1865.0,
+      "elo_away": 1800.0,
+      "elo_diff": 65.0,
+      "team_score_home": 8.057,
+      "team_score_away": 7.629,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.4896,
+          "draw": 0.2057,
+          "win_away": 0.3047,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.4018,
+          "draw": 0.2121,
+          "win_away": 0.3861,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "F",
+      "matchday": 3,
+      "date": "2026-06-25",
+      "time_brt": "20:00",
+      "venue": "Arrowhead Stadium, Kansas City",
+      "home": "Tunisia",
+      "away": "Netherlands",
+      "squad_source_home": "recent_games",
+      "squad_source_away": "official",
+      "prob_win_home": 0.102,
+      "prob_draw": 0.1168,
+      "prob_win_away": 0.7811,
+      "predicted_score_home": 0,
+      "predicted_score_away": 2,
+      "expected_goals_home": 0.7,
+      "expected_goals_away": 3.0,
+      "lambda_home": 0.676,
+      "lambda_away": 3.043,
+      "elo_home": 1730.0,
+      "elo_away": 1975.0,
+      "elo_diff": -245.0,
+      "team_score_home": 6.99,
+      "team_score_away": 8.139,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.1362,
+          "draw": 0.1199,
+          "win_away": 0.7439,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.063,
+          "draw": 0.1133,
+          "win_away": 0.8237,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "G",
+      "matchday": 3,
+      "date": "2026-06-26",
+      "time_brt": "00:00",
+      "venue": "Lumen Field, Seattle",
+      "home": "Egypt",
+      "away": "Iran",
+      "squad_source_home": "recent_games",
+      "squad_source_away": "recent_games",
+      "prob_win_home": 0.3746,
+      "prob_draw": 0.1918,
+      "prob_win_away": 0.4336,
+      "predicted_score_home": 2,
+      "predicted_score_away": 2,
+      "expected_goals_home": 2.6,
+      "expected_goals_away": 2.3,
+      "lambda_home": 2.601,
+      "lambda_away": 2.341,
+      "elo_home": 1670.0,
+      "elo_away": 1735.0,
+      "elo_diff": -65.0,
+      "team_score_home": 7.027,
+      "team_score_away": 7.068,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.3047,
+          "draw": 0.2057,
+          "win_away": 0.4896,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.4545,
+          "draw": 0.1759,
+          "win_away": 0.3696,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "G",
+      "matchday": 3,
+      "date": "2026-06-26",
+      "time_brt": "00:00",
+      "venue": "BC Place, Vancouver",
+      "home": "New Zealand",
+      "away": "Belgium",
+      "squad_source_home": "recent_games",
+      "squad_source_away": "official",
+      "prob_win_home": 0.1414,
+      "prob_draw": 0.1293,
+      "prob_win_away": 0.7293,
+      "predicted_score_home": 0,
+      "predicted_score_away": 3,
+      "expected_goals_home": 0.5,
+      "expected_goals_away": 3.2,
+      "lambda_home": 0.531,
+      "lambda_away": 3.32,
+      "elo_home": 1800.0,
+      "elo_away": 1935.0,
+      "elo_diff": -135.0,
+      "team_score_home": 6.374,
+      "team_score_away": 8.304,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.2316,
+          "draw": 0.1667,
+          "win_away": 0.6017,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.0384,
+          "draw": 0.0865,
+          "win_away": 0.8751,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "H",
+      "matchday": 3,
+      "date": "2026-06-26",
+      "time_brt": "21:00",
+      "venue": "NRG Stadium, Houston",
+      "home": "Cape Verde",
+      "away": "Saudi Arabia",
+      "squad_source_home": "recent_games",
+      "squad_source_away": "recent_games",
+      "prob_win_home": 0.4001,
+      "prob_draw": 0.2168,
+      "prob_win_away": 0.3831,
+      "predicted_score_home": 1,
+      "predicted_score_away": 1,
+      "expected_goals_home": 1.4,
+      "expected_goals_away": 1.8,
+      "lambda_home": 1.371,
+      "lambda_away": 1.762,
+      "elo_home": 1800.0,
+      "elo_away": 1740.0,
+      "elo_diff": 60.0,
+      "team_score_home": 6.277,
+      "team_score_away": 6.97,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.4811,
+          "draw": 0.2088,
+          "win_away": 0.3101,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.3076,
+          "draw": 0.226,
+          "win_away": 0.4665,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "H",
+      "matchday": 3,
+      "date": "2026-06-26",
+      "time_brt": "21:00",
+      "venue": "Estadio Akron, Guadalajara",
+      "home": "Uruguay",
+      "away": "Spain",
+      "squad_source_home": "official",
+      "squad_source_away": "official",
+      "prob_win_home": 0.2041,
+      "prob_draw": 0.1715,
+      "prob_win_away": 0.6245,
+      "predicted_score_home": 0,
+      "predicted_score_away": 2,
+      "expected_goals_home": 1.0,
+      "expected_goals_away": 2.7,
+      "lambda_home": 1.02,
+      "lambda_away": 2.696,
+      "elo_home": 1920.0,
+      "elo_away": 2020.0,
+      "elo_diff": -100.0,
+      "team_score_home": 7.605,
+      "team_score_away": 8.72,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.2673,
+          "draw": 0.1852,
+          "win_away": 0.5475,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.1318,
+          "draw": 0.1558,
+          "win_away": 0.7124,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "I",
+      "matchday": 3,
+      "date": "2026-06-26",
+      "time_brt": "16:00",
+      "venue": "Gillette Stadium, Boston",
+      "home": "Norway",
+      "away": "France",
+      "squad_source_home": "recent_games",
+      "squad_source_away": "official",
+      "prob_win_home": 0.1658,
+      "prob_draw": 0.1389,
+      "prob_win_away": 0.6953,
+      "predicted_score_home": 1,
+      "predicted_score_away": 2,
+      "expected_goals_home": 1.6,
+      "expected_goals_away": 2.7,
+      "lambda_home": 1.567,
+      "lambda_away": 2.767,
+      "elo_home": 1800.0,
+      "elo_away": 2063.0,
+      "elo_diff": -263.0,
+      "team_score_home": 7.717,
+      "team_score_away": 8.206,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.1236,
+          "draw": 0.1136,
+          "win_away": 0.7629,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.2141,
+          "draw": 0.1678,
+          "win_away": 0.6181,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "I",
+      "matchday": 3,
+      "date": "2026-06-26",
+      "time_brt": "16:00",
+      "venue": "BMO Field, Toronto",
+      "home": "Senegal",
+      "away": "Iraq",
+      "squad_source_home": "official",
+      "squad_source_away": "estimated",
+      "prob_win_home": 0.6344,
+      "prob_draw": 0.1638,
+      "prob_win_away": 0.2018,
+      "predicted_score_home": 3,
+      "predicted_score_away": 0,
+      "expected_goals_home": 3.2,
+      "expected_goals_away": 0.7,
+      "lambda_home": 3.32,
+      "lambda_away": 0.686,
+      "elo_home": 1840.0,
+      "elo_away": 1800.0,
+      "elo_diff": 40.0,
+      "team_score_home": 7.859,
+      "team_score_away": 6.118,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.4464,
+          "draw": 0.2217,
+          "win_away": 0.3318,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.8492,
+          "draw": 0.0976,
+          "win_away": 0.0532,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "J",
+      "matchday": 3,
+      "date": "2026-06-27",
+      "time_brt": "23:00",
+      "venue": "Arrowhead Stadium, Kansas City",
+      "home": "Algeria",
+      "away": "Austria",
+      "squad_source_home": "recent_games",
+      "squad_source_away": "recent_games",
+      "prob_win_home": 0.2752,
+      "prob_draw": 0.207,
+      "prob_win_away": 0.5178,
+      "predicted_score_home": 1,
+      "predicted_score_away": 1,
+      "expected_goals_home": 1.2,
+      "expected_goals_away": 1.5,
+      "lambda_home": 1.226,
+      "lambda_away": 1.519,
+      "elo_home": 1675.0,
+      "elo_away": 1800.0,
+      "elo_diff": -125.0,
+      "team_score_home": 6.945,
+      "team_score_away": 7.172,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.2416,
+          "draw": 0.1718,
+          "win_away": 0.5866,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.3136,
+          "draw": 0.2472,
+          "win_away": 0.4392,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "J",
+      "matchday": 3,
+      "date": "2026-06-27",
+      "time_brt": "23:00",
+      "venue": "AT&T Stadium, Dallas",
+      "home": "Jordan",
+      "away": "Argentina",
+      "squad_source_home": "estimated",
+      "squad_source_away": "official",
+      "prob_win_home": 0.0561,
+      "prob_draw": 0.0857,
+      "prob_win_away": 0.8582,
+      "predicted_score_home": 0,
+      "predicted_score_away": 3,
+      "expected_goals_home": 0.4,
+      "expected_goals_away": 3.2,
+      "lambda_home": 0.45,
+      "lambda_away": 3.32,
+      "elo_home": 1800.0,
+      "elo_away": 2142.0,
+      "elo_diff": -342.0,
+      "team_score_home": 5.933,
+      "team_score_away": 8.477,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.0777,
+          "draw": 0.0896,
+          "win_away": 0.8327,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.0314,
+          "draw": 0.0812,
+          "win_away": 0.8874,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "K",
+      "matchday": 3,
+      "date": "2026-06-27",
+      "time_brt": "20:30",
+      "venue": "Hard Rock Stadium, Miami",
+      "home": "Colombia",
+      "away": "Portugal",
+      "squad_source_home": "official",
+      "squad_source_away": "official",
+      "prob_win_home": 0.2518,
+      "prob_draw": 0.1996,
+      "prob_win_away": 0.5485,
+      "predicted_score_home": 0,
+      "predicted_score_away": 1,
+      "expected_goals_home": 1.1,
+      "expected_goals_away": 2.1,
+      "lambda_home": 1.142,
+      "lambda_away": 2.117,
+      "elo_home": 1890.0,
+      "elo_away": 1970.0,
+      "elo_diff": -80.0,
+      "team_score_home": 7.528,
+      "team_score_away": 8.009,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.2885,
+          "draw": 0.1967,
+          "win_away": 0.5148,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.2099,
+          "draw": 0.203,
+          "win_away": 0.5871,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "K",
+      "matchday": 3,
+      "date": "2026-06-27",
+      "time_brt": "20:30",
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "home": "Congo DR",
+      "away": "Uzbekistan",
+      "squad_source_home": "recent_games",
+      "squad_source_away": "recent_games",
+      "prob_win_home": 0.431,
+      "prob_draw": 0.2299,
+      "prob_win_away": 0.3391,
+      "predicted_score_home": 1,
+      "predicted_score_away": 1,
+      "expected_goals_home": 2.0,
+      "expected_goals_away": 1.5,
+      "lambda_home": 2.048,
+      "lambda_away": 1.531,
+      "elo_home": 1800.0,
+      "elo_away": 1800.0,
+      "elo_diff": 0.0,
+      "team_score_home": 6.46,
+      "team_score_away": 6.172,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.375,
+          "draw": 0.25,
+          "win_away": 0.375,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.495,
+          "draw": 0.207,
+          "win_away": 0.298,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "L",
+      "matchday": 3,
+      "date": "2026-06-27",
+      "time_brt": "18:00",
+      "venue": "MetLife Stadium, Nova York",
+      "home": "Panama",
+      "away": "England",
+      "squad_source_home": "recent_games",
+      "squad_source_away": "official",
+      "prob_win_home": 0.0724,
+      "prob_draw": 0.095,
+      "prob_win_away": 0.8326,
+      "predicted_score_home": 0,
+      "predicted_score_away": 3,
+      "expected_goals_home": 0.5,
+      "expected_goals_away": 3.2,
+      "lambda_home": 0.539,
+      "lambda_away": 3.32,
+      "elo_home": 1685.0,
+      "elo_away": 1983.0,
+      "elo_diff": -298.0,
+      "team_score_home": 6.216,
+      "team_score_away": 8.52,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.1013,
+          "draw": 0.1023,
+          "win_away": 0.7964,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.0394,
+          "draw": 0.0867,
+          "win_away": 0.8739,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    },
+    {
+      "group": "L",
+      "matchday": 3,
+      "date": "2026-06-27",
+      "time_brt": "18:00",
+      "venue": "Lincoln Financial Field, Philadelphia",
+      "home": "Croatia",
+      "away": "Ghana",
+      "squad_source_home": "official",
+      "squad_source_away": "recent_games",
+      "prob_win_home": 0.6801,
+      "prob_draw": 0.1495,
+      "prob_win_away": 0.1704,
+      "predicted_score_home": 2,
+      "predicted_score_away": 1,
+      "expected_goals_home": 2.7,
+      "expected_goals_away": 1.2,
+      "lambda_home": 2.755,
+      "lambda_away": 1.225,
+      "elo_home": 1935.0,
+      "elo_away": 1745.0,
+      "elo_diff": 190.0,
+      "team_score_home": 8.07,
+      "team_score_away": 7.37,
+      "ml_trained": false,
+      "breakdown": {
+        "elo": {
+          "win_home": 0.6784,
+          "draw": 0.1414,
+          "win_away": 0.1802,
+          "weight": 0.533
+        },
+        "poisson": {
+          "win_home": 0.6821,
+          "draw": 0.1588,
+          "win_away": 0.1591,
+          "weight": 0.467
+        },
+        "xgboost": {
+          "win_home": 0.4,
+          "draw": 0.25,
+          "win_away": 0.35,
+          "weight": 0.0
+        }
+      }
+    }
+  ]
+}
