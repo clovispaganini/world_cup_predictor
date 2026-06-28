@@ -765,69 +765,146 @@ elif page == "🧩 Análise do Elenco":
 # ═══════════════════════════════════════════════════════════════════════════════
 
 elif page == "🏆 Mata-Mata":
+    import json as _json
+
     st.title("🏆 Mata-Mata — Copa do Mundo 2026")
     st.caption(
-        "Os confrontos do mata-mata serão definidos após o encerramento da fase de grupos "
-        "(28/06/2026). Os chaveamentos abaixo mostram os critérios oficiais da FIFA."
+        "Confrontos confirmados. Previsões geradas com **Elo atualizado pelos 48 resultados reais** "
+        "da fase de grupos (K=60 por jogo — Copa tem o maior peso do modelo)."
     )
     st.markdown("---")
 
-    # ── Round of 32 ───────────────────────────────────────────────────────────
-    st.subheader("Oitavas de Final (Round of 32)")
-    st.markdown(
-        '<div class="info">Os 16 confrontos das oitavas seguem o chaveamento oficial da FIFA. '
-        'Os classificados serão preenchidos automaticamente conforme os grupos terminam.</div>',
-        unsafe_allow_html=True,
-    )
-    st.markdown("")
+    # ── Load confirmed R32 data ───────────────────────────────────────────────
+    _ROOT_APP = Path(__file__).resolve().parent
+    _r32_path  = _ROOT_APP / "data" / "r32_bracket.json"
+    _pred_path = _ROOT_APP / "data" / "previsoes_r32.json"
 
-    r32_slots = get_r32_slots()
+    try:
+        r32_bracket  = _json.loads(_r32_path.read_text(encoding="utf-8"))
+        r32_preds_raw = _json.loads(_pred_path.read_text(encoding="utf-8"))
+        preds_by_id  = {p["id"]: p for p in r32_preds_raw["jogos"]}
+        r32_loaded   = True
+    except Exception:
+        r32_loaded = False
 
-    # Two columns of matchups
-    col_left, col_right = st.columns(2)
-    for i, slot in enumerate(r32_slots):
-        col = col_left if i % 2 == 0 else col_right
-        with col:
-            st.markdown(
-                f'<div class="tbd-card">'
-                f'<div style="font-size:.75rem;color:#64748b;margin-bottom:4px;">{slot["id"]} &nbsp;·&nbsp; {slot.get("date","")}</div>'
-                f'<div style="font-size:1rem;font-weight:600;">'
-                f'<span style="color:#94a3b8;">{slot["slot_a"]}</span>'
-                f' &nbsp;×&nbsp; '
-                f'<span style="color:#94a3b8;">{slot["slot_b"]}</span>'
-                f'</div>'
-                f'<div style="font-size:.7rem;margin-top:6px;color:#475569;">⏳ A definir após fase de grupos</div>'
-                f'</div>',
-                unsafe_allow_html=True,
-            )
+    _MONTHS_MM = {6: "jun", 7: "jul"}
 
-    st.markdown("---")
+    def _fmt_mm(ds: str) -> str:
+        try:
+            _, mo, d = ds.split("-")
+            return f"{int(d)}/{_MONTHS_MM.get(int(mo), mo)}"
+        except Exception:
+            return ds
 
-    # ── Legend ────────────────────────────────────────────────────────────────
-    st.subheader("📋 Legenda do Chaveamento")
-    leg_data = []
-    for slot in r32_slots:
-        leg_data.append({
-            "Jogo":   slot["id"],
-            "Slot A": slot["slot_a"],
-            "Slot B": slot["slot_b"],
-            "Data":   slot.get("date", ""),
-        })
-    st.dataframe(pd.DataFrame(leg_data).set_index("Jogo"), use_container_width=True)
+    if not r32_loaded:
+        st.warning("Arquivo de confrontos não encontrado. Execute `python generate_r32_predictions.py`.")
+    else:
+        st.subheader("Rodada de 32 — 16 confrontos confirmados")
 
-    st.markdown("")
-    st.markdown(
-        "**Código dos slots:** `1X` = 1° do grupo X &nbsp;·&nbsp; "
-        "`2X` = 2° do grupo X &nbsp;·&nbsp; "
-        "`3XYZ...` = melhor 3° dos grupos indicados"
-    )
+        col_left, col_right = st.columns(2)
+        for i, m in enumerate(r32_bracket["matches"]):
+            ta  = m["team_a"]
+            tb  = m["team_b"]
+            pred = preds_by_id.get(m["id"], {})
+            score = pred.get("placar_previsto", "?-?")
+            wa    = pred.get("prob_mandante",  0.33)
+            wd    = pred.get("prob_empate",    0.33)
+            wb    = pred.get("prob_visitante", 0.33)
+            wa_p  = int(round(wa * 100))
+            wd_p  = int(round(wd * 100))
+            wb_p  = int(round(wb * 100))
+            ga    = m.get("group_a", "")
+            gb    = m.get("group_b", "")
+            venue = m.get("venue", "")
+            time_ = m.get("time_brt", "")
+            date_ = _fmt_mm(m["date"])
+
+            card_html = f"""
+            <div class="match-card" style="margin-bottom:10px;">
+              <div style="font-size:.72rem;color:#64748b;margin-bottom:6px;">
+                {m['id']} &nbsp;·&nbsp; {date_} &nbsp;·&nbsp; ⏰ {time_} BRT
+              </div>
+              <div style="display:flex;align-items:center;gap:6px;">
+                <div style="flex:1;text-align:right;">
+                  <div style="font-weight:700;font-size:.95rem;">{ta}</div>
+                  <div style="font-size:.7rem;color:#64748b;">{ga}</div>
+                </div>
+                <div style="text-align:center;min-width:68px;">
+                  <span class="score-badge" style="font-size:1.2rem;padding:3px 10px;">{score}</span>
+                  <div style="font-size:.6rem;color:#64748b;margin-top:2px;">previsão</div>
+                </div>
+                <div style="flex:1;text-align:left;">
+                  <div style="font-weight:700;font-size:.95rem;">{tb}</div>
+                  <div style="font-size:.7rem;color:#64748b;">{gb}</div>
+                </div>
+              </div>
+              <div style="margin-top:7px;">
+                <div class="prob-bar">
+                  <div style="flex:{wa_p};background:#4ade80;"></div>
+                  <div style="flex:{wd_p};background:#fbbf24;"></div>
+                  <div style="flex:{wb_p};background:#f87171;"></div>
+                </div>
+                <div style="display:flex;justify-content:space-between;font-size:.68rem;margin-top:2px;">
+                  <span style="color:#4ade80;">{wa_p}% {ta.split()[0]}</span>
+                  <span style="color:#fbbf24;">{wd_p}% Emp</span>
+                  <span style="color:#f87171;">{wb_p}% {tb.split()[0]}</span>
+                </div>
+              </div>
+              <div style="font-size:.65rem;color:#475569;margin-top:5px;">📍 {venue}</div>
+            </div>"""
+
+            target_col = col_left if i % 2 == 0 else col_right
+            with target_col:
+                st.markdown(card_html, unsafe_allow_html=True)
+                if st.button("🔍 Previsão completa", key=f"r32_{m['id']}", use_container_width=True):
+                    st.session_state.update({
+                        "selected_match": {
+                            "home": ta, "away": tb,
+                            "date": m["date"], "venue": venue,
+                            "phase": "Oitavas de Final",
+                        },
+                        "result": None, "team_res_a": None, "team_res_b": None,
+                        "page": "📊 Resultado da Previsão",
+                    })
+                    _load_and_predict(ta, tb, "Oitavas de Final")
+                    st.rerun()
+
+        # ── Predictions summary table ─────────────────────────────────────────
+        st.markdown("---")
+        st.subheader("Resumo das Previsões")
+
+        rows_r32 = []
+        for p in r32_preds_raw["jogos"]:
+            rows_r32.append({
+                "Data":      p["data"] + " " + p["horario_brt"],
+                "Mandante":  p["mandante"],
+                "Visitante": p["visitante"],
+                "Placar":    p["placar_previsto"],
+                "% Mand.":   f"{p['prob_mandante']*100:.0f}%",
+                "% Emp.":    f"{p['prob_empate']*100:.0f}%",
+                "% Visit.":  f"{p['prob_visitante']*100:.0f}%",
+                "Favorito":  p["favorito"],
+            })
+        st.dataframe(pd.DataFrame(rows_r32), use_container_width=True, hide_index=True)
+
+        st.markdown("---")
+        st.caption(
+            f"Previsões geradas em **{r32_preds_raw.get('_gerado_em','')[:10]}** · "
+            f"{r32_preds_raw.get('_modelo','')}. "
+            "O Elo de cada seleção foi recalculado com todos os resultados da fase de grupos "
+            "(vitórias inesperadas valem mais pontos)."
+        )
 
     st.markdown("---")
     st.subheader("Próximas fases")
-    for fase in ["Quartas de Final (Quartos de Final)", "Semifinal", "Final — 19 de julho de 2026"]:
+    for fase in [
+        "Quartas de Final — 9 a 11 de julho de 2026",
+        "Semifinal — 14 e 15 de julho de 2026",
+        "Final — 19 de julho de 2026 · MetLife Stadium, Nova York",
+    ]:
         st.markdown(
             f'<div class="tbd-card" style="margin-bottom:8px;">'
-            f'<b>{fase}</b><br><span style="font-size:.8rem;">⏳ A definir</span>'
+            f'<b>{fase}</b><br><span style="font-size:.8rem;">⏳ A definir conforme o mata-mata avança</span>'
             f'</div>',
             unsafe_allow_html=True,
         )
