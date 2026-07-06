@@ -776,16 +776,23 @@ elif page == "🏆 Mata-Mata":
 
     # ── Load confirmed R32 data ───────────────────────────────────────────────
     _ROOT_APP = Path(__file__).resolve().parent
-    _r32_path  = _ROOT_APP / "data" / "r32_bracket.json"
-    _pred_path = _ROOT_APP / "data" / "previsoes_r32.json"
+    _r32_path      = _ROOT_APP / "data" / "r32_bracket.json"
+    _pred_path     = _ROOT_APP / "data" / "previsoes_r32.json"
+    _oitavas_path  = _ROOT_APP / "data" / "previsoes_oitavas.json"
 
     try:
-        r32_bracket  = _json.loads(_r32_path.read_text(encoding="utf-8"))
+        r32_bracket   = _json.loads(_r32_path.read_text(encoding="utf-8"))
         r32_preds_raw = _json.loads(_pred_path.read_text(encoding="utf-8"))
-        preds_by_id  = {p["id"]: p for p in r32_preds_raw["jogos"]}
-        r32_loaded   = True
+        preds_by_id   = {p["id"]: p for p in r32_preds_raw["jogos"]}
+        r32_loaded    = True
     except Exception:
         r32_loaded = False
+
+    try:
+        oitavas_preds_raw = _json.loads(_oitavas_path.read_text(encoding="utf-8"))
+        oitavas_loaded    = True
+    except Exception:
+        oitavas_loaded = False
 
     _MONTHS_MM = {6: "jun", 7: "jul"}
 
@@ -893,6 +900,115 @@ elif page == "🏆 Mata-Mata":
             f"{r32_preds_raw.get('_modelo','')}. "
             "O Elo de cada seleção foi recalculado com todos os resultados da fase de grupos "
             "(vitórias inesperadas valem mais pontos)."
+        )
+
+    # ── Oitavas de Final ─────────────────────────────────────────────────────
+    st.markdown("---")
+    st.subheader("Oitavas de Final — 8 confrontos")
+
+    if not oitavas_loaded:
+        st.warning("Execute `python generate_oitavas_predictions.py` para gerar as previsões das oitavas.")
+    else:
+        st.caption(
+            "Elo atualizado com **68 resultados reais** (fase de grupos + rodada de 32 + oitavas já disputadas). "
+            "Jogos encerrados mostram o resultado real para comparação com a previsão do modelo."
+        )
+
+        col_oit_l, col_oit_r = st.columns(2)
+        for i, p in enumerate(oitavas_preds_raw["jogos"]):
+            ta    = p["mandante"]
+            tb    = p["visitante"]
+            score = p["placar_previsto"]
+            wa_p  = int(round(p.get("prob_mandante",  0.33) * 100))
+            wd_p  = int(round(p.get("prob_empate",    0.33) * 100))
+            wb_p  = int(round(p.get("prob_visitante", 0.33) * 100))
+            venue = p.get("venue", "")
+            time_ = p.get("horario_brt", "")
+            date_ = _fmt_mm(p["data"])
+            jogado = p.get("jogado", False)
+            resultado_real = p.get("resultado_real") or ""
+
+            encerrado_label = (
+                "&nbsp;·&nbsp; <span style='color:#60a5fa;font-weight:600;'>ENCERRADO</span>"
+                if jogado else ""
+            )
+            resultado_line = (
+                f'<div style="text-align:center;font-size:.72rem;margin-top:4px;color:#60a5fa;">'
+                f'⚽ Resultado real: <b>{resultado_real}</b></div>'
+                if jogado else ""
+            )
+
+            card_html = f"""
+            <div class="match-card" style="margin-bottom:10px;">
+              <div style="font-size:.72rem;color:#64748b;margin-bottom:6px;">
+                {p['id']} &nbsp;·&nbsp; {date_} &nbsp;·&nbsp; ⏰ {time_} BRT{encerrado_label}
+              </div>
+              <div style="display:flex;align-items:center;gap:6px;">
+                <div style="flex:1;text-align:right;">
+                  <div style="font-weight:700;font-size:.95rem;">{ta}</div>
+                  <div style="font-size:.7rem;color:#64748b;">Elo {p.get('elo_mandante','')}</div>
+                </div>
+                <div style="text-align:center;min-width:68px;">
+                  <span class="score-badge" style="font-size:1.2rem;padding:3px 10px;">{score}</span>
+                  <div style="font-size:.6rem;color:#64748b;margin-top:2px;">previsão</div>
+                </div>
+                <div style="flex:1;text-align:left;">
+                  <div style="font-weight:700;font-size:.95rem;">{tb}</div>
+                  <div style="font-size:.7rem;color:#64748b;">Elo {p.get('elo_visitante','')}</div>
+                </div>
+              </div>
+              {resultado_line}
+              <div style="margin-top:7px;">
+                <div class="prob-bar">
+                  <div style="flex:{wa_p};background:#4ade80;"></div>
+                  <div style="flex:{wd_p};background:#fbbf24;"></div>
+                  <div style="flex:{wb_p};background:#f87171;"></div>
+                </div>
+                <div style="display:flex;justify-content:space-between;font-size:.68rem;margin-top:2px;">
+                  <span style="color:#4ade80;">{wa_p}% {ta.split()[0]}</span>
+                  <span style="color:#fbbf24;">{wd_p}% Emp</span>
+                  <span style="color:#f87171;">{wb_p}% {tb.split()[0]}</span>
+                </div>
+              </div>
+              <div style="font-size:.65rem;color:#475569;margin-top:5px;">📍 {venue}</div>
+            </div>"""
+
+            target_col = col_oit_l if i % 2 == 0 else col_oit_r
+            with target_col:
+                st.markdown(card_html, unsafe_allow_html=True)
+                if not jogado:
+                    if st.button("🔍 Previsão completa", key=f"r16_{p['id']}", use_container_width=True):
+                        st.session_state.update({
+                            "selected_match": {
+                                "home": ta, "away": tb,
+                                "date": p["data"], "venue": venue,
+                                "phase": "Oitavas de Final",
+                            },
+                            "result": None, "team_res_a": None, "team_res_b": None,
+                            "page": "📊 Resultado da Previsão",
+                        })
+                        _load_and_predict(ta, tb, "Oitavas de Final")
+                        st.rerun()
+
+        st.markdown("---")
+        rows_oitavas = []
+        for p in oitavas_preds_raw["jogos"]:
+            rows_oitavas.append({
+                "Data":           p["data"] + " " + p["horario_brt"],
+                "Mandante":       p["mandante"],
+                "Visitante":      p["visitante"],
+                "Previsão":       p["placar_previsto"],
+                "% Mand.":        f"{p['prob_mandante']*100:.0f}%",
+                "% Emp.":         f"{p['prob_empate']*100:.0f}%",
+                "% Visit.":       f"{p['prob_visitante']*100:.0f}%",
+                "Favorito":       p["favorito"],
+                "Resultado Real": p.get("resultado_real") or "A disputar",
+            })
+        st.dataframe(pd.DataFrame(rows_oitavas), use_container_width=True, hide_index=True)
+
+        st.caption(
+            f"Previsões geradas em **{oitavas_preds_raw.get('_gerado_em','')[:10]}** · "
+            f"{oitavas_preds_raw.get('_modelo','')}."
         )
 
     st.markdown("---")
