@@ -91,8 +91,8 @@
       "elo_mandante": 2058.0,
       "elo_visitante": 2010.8,
       "elo_diff": 47.2,
-      "jogado": false,
-      "resultado_real": null
+      "jogado": true,
+      "resultado_real": "1-0"
     },
     {
       "id": "R16-06",
@@ -109,8 +109,8 @@
       "elo_mandante": 1842.8,
       "elo_visitante": 1901.6,
       "elo_diff": -58.9,
-      "jogado": false,
-      "resultado_real": null
+      "jogado": true,
+      "resultado_real": "1-4"
     },
     {
       "id": "R16-07",
@@ -127,8 +127,8 @@
       "elo_mandante": 2169.9,
       "elo_visitante": 1772.0,
       "elo_diff": 397.9,
-      "jogado": false,
-      "resultado_real": null
+      "jogado": true,
+      "resultado_real": "3-2"
     },
     {
       "id": "R16-08",
@@ -145,8 +145,8 @@
       "elo_mandante": 1947.7,
       "elo_visitante": 1933.6,
       "elo_diff": 14.0,
-      "jogado": false,
-      "resultado_real": null
+      "jogado": true,
+      "resultado_real": "0-0 (pen 4-3)"
     }
   ]
 }
