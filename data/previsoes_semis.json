@@ -1,0 +1,43 @@
+{
+  "_gerado_em": "2026-07-13T10:21:41.457922",
+  "_modelo": "Elo(~53%) + Poisson(~47%) — Elo atualizado com 76 resultados reais (grupos + R32 + oitavas + quartas)",
+  "_resultados_usados": 76,
+  "jogos": [
+    {
+      "id": "SF-01",
+      "data": "2026-07-14",
+      "horario_brt": "16:00",
+      "mandante": "France",
+      "visitante": "Spain",
+      "venue": "AT&T Stadium, Dallas",
+      "placar_previsto": "1-1",
+      "prob_mandante": 0.3939,
+      "prob_empate": 0.2106,
+      "prob_visitante": 0.3955,
+      "favorito": "Spain",
+      "elo_mandante": 2154.3,
+      "elo_visitante": 2102.6,
+      "elo_diff": 51.7,
+      "jogado": false,
+      "resultado_real": null
+    },
+    {
+      "id": "SF-02",
+      "data": "2026-07-15",
+      "horario_brt": "16:00",
+      "mandante": "England",
+      "visitante": "Argentina",
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "placar_previsto": "1-1",
+      "prob_mandante": 0.3135,
+      "prob_empate": 0.1879,
+      "prob_visitante": 0.4986,
+      "favorito": "Argentina",
+      "elo_mandante": 2047.7,
+      "elo_visitante": 2193.5,
+      "elo_diff": -145.9,
+      "jogado": false,
+      "resultado_real": null
+    }
+  ]
+}

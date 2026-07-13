@@ -18,8 +18,8 @@
       "elo_mandante": 2126.9,
       "elo_visitante": 1984.0,
       "elo_diff": 142.9,
-      "jogado": false,
-      "resultado_real": null
+      "jogado": true,
+      "resultado_real": "2-0"
     },
     {
       "id": "R8-02",
@@ -36,8 +36,8 @@
       "elo_mandante": 2084.0,
       "elo_visitante": 1945.3,
       "elo_diff": 138.6,
-      "jogado": false,
-      "resultado_real": null
+      "jogado": true,
+      "resultado_real": "2-1"
     },
     {
       "id": "R8-03",
@@ -54,8 +54,8 @@
       "elo_mandante": 1926.6,
       "elo_visitante": 2026.0,
       "elo_diff": -99.5,
-      "jogado": false,
-      "resultado_real": null
+      "jogado": true,
+      "resultado_real": "1-2"
     },
     {
       "id": "R8-04",
@@ -72,8 +72,8 @@
       "elo_mandante": 2175.4,
       "elo_visitante": 1936.0,
       "elo_diff": 239.4,
-      "jogado": false,
-      "resultado_real": null
+      "jogado": true,
+      "resultado_real": "3-1"
     }
   ]
 }
