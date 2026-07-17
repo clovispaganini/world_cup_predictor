@@ -1,0 +1,45 @@
+{
+  "_gerado_em": "2026-07-17T10:04:40.139340",
+  "_modelo": "Elo(~53%) + Poisson(~47%) — Elo atualizado com 78 resultados reais (toda a Copa)",
+  "_resultados_usados": 78,
+  "jogos": [
+    {
+      "id": "3PL",
+      "fase": "Disputa do 3o Lugar",
+      "data": "2026-07-18",
+      "horario_brt": "18:00",
+      "mandante": "France",
+      "visitante": "England",
+      "venue": "Hard Rock Stadium, Miami",
+      "placar_previsto": "1-1",
+      "prob_mandante": 0.4354,
+      "prob_empate": 0.2054,
+      "prob_visitante": 0.3592,
+      "favorito": "France",
+      "elo_mandante": 2102.7,
+      "elo_visitante": 2029.6,
+      "elo_diff": 73.1,
+      "jogado": false,
+      "resultado_real": null
+    },
+    {
+      "id": "FINAL",
+      "fase": "Final",
+      "data": "2026-07-19",
+      "horario_brt": "16:00",
+      "mandante": "Spain",
+      "visitante": "Argentina",
+      "venue": "MetLife Stadium, Nova York/Nova Jersey",
+      "placar_previsto": "1-1",
+      "prob_mandante": 0.3862,
+      "prob_empate": 0.2131,
+      "prob_visitante": 0.4007,
+      "favorito": "Argentina",
+      "elo_mandante": 2154.3,
+      "elo_visitante": 2211.6,
+      "elo_diff": -57.4,
+      "jogado": false,
+      "resultado_real": null
+    }
+  ]
+}

@@ -18,8 +18,8 @@
       "elo_mandante": 2154.3,
       "elo_visitante": 2102.6,
       "elo_diff": 51.7,
-      "jogado": false,
-      "resultado_real": null
+      "jogado": true,
+      "resultado_real": "0-2"
     },
     {
       "id": "SF-02",
@@ -36,8 +36,8 @@
       "elo_mandante": 2047.7,
       "elo_visitante": 2193.5,
       "elo_diff": -145.9,
-      "jogado": false,
-      "resultado_real": null
+      "jogado": true,
+      "resultado_real": "1-2"
     }
   ]
 }

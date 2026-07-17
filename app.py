@@ -781,6 +781,7 @@ elif page == "🏆 Mata-Mata":
     _oitavas_path  = _ROOT_APP / "data" / "previsoes_oitavas.json"
     _quartas_path  = _ROOT_APP / "data" / "previsoes_quartas.json"
     _semis_path    = _ROOT_APP / "data" / "previsoes_semis.json"
+    _final_path    = _ROOT_APP / "data" / "previsoes_final.json"
 
     try:
         r32_bracket   = _json.loads(_r32_path.read_text(encoding="utf-8"))
@@ -807,6 +808,12 @@ elif page == "🏆 Mata-Mata":
         semis_loaded    = True
     except Exception:
         semis_loaded = False
+
+    try:
+        final_preds_raw = _json.loads(_final_path.read_text(encoding="utf-8"))
+        final_loaded    = True
+    except Exception:
+        final_loaded = False
 
     _MONTHS_MM = {6: "jun", 7: "jul"}
 
@@ -1244,15 +1251,105 @@ elif page == "🏆 Mata-Mata":
             f"{semis_preds_raw.get('_modelo','')}."
         )
 
+    # ── Disputa do 3o Lugar + Final ──────────────────────────────────────────
     st.markdown("---")
-    st.subheader("Final")
-    st.markdown(
-        '<div class="tbd-card" style="margin-bottom:8px;">'
-        '<b>Final — 19 de julho de 2026 · MetLife Stadium, Nova York/Nova Jersey</b>'
-        '<br><span style="font-size:.8rem;">⏳ Finalistas definidos após as semifinais</span>'
-        '</div>',
-        unsafe_allow_html=True,
-    )
+    st.subheader("Disputa do 3º Lugar & Final")
+
+    if not final_loaded:
+        st.warning("Execute `python generate_final_predictions.py` para gerar as previsões finais.")
+    else:
+        st.caption(
+            "Elo atualizado com **78 resultados reais** — toda a Copa do Mundo 2026. "
+            "Spain vs Argentina: o encontro dos dois times com mais títulos mundiais combinados."
+        )
+
+        for p in final_preds_raw["jogos"]:
+            ta    = p["mandante"]
+            tb    = p["visitante"]
+            score = p["placar_previsto"]
+            wa_p  = int(round(p.get("prob_mandante",  0.33) * 100))
+            wd_p  = int(round(p.get("prob_empate",    0.33) * 100))
+            wb_p  = int(round(p.get("prob_visitante", 0.33) * 100))
+            venue = p.get("venue", "")
+            time_ = p.get("horario_brt", "")
+            date_ = _fmt_mm(p["data"])
+            fase  = p.get("fase", "")
+            jogado = p.get("jogado", False)
+            resultado_real = p.get("resultado_real") or ""
+            is_final = p["id"] == "FINAL"
+
+            border_style = "border:2px solid #f59e0b;" if is_final else "border:1px solid #475569;"
+            font_size    = "1.15rem" if is_final else "0.95rem"
+            badge_size   = "1.4rem"  if is_final else "1.2rem"
+
+            encerrado_label = (
+                "&nbsp;·&nbsp; <span style='color:#60a5fa;font-weight:600;'>ENCERRADO</span>"
+                if jogado else ""
+            )
+            resultado_line = (
+                f'<div style="text-align:center;font-size:.72rem;margin-top:4px;color:#60a5fa;">'
+                f'⚽ Resultado real: <b>{resultado_real}</b></div>'
+                if jogado else ""
+            )
+            trophy = "🏆 " if is_final else "🥉 "
+
+            card_html = f"""
+            <div class="match-card" style="margin-bottom:14px;{border_style}">
+              <div style="font-size:.8rem;color:#f59e0b;font-weight:600;margin-bottom:4px;">
+                {trophy}{fase}
+              </div>
+              <div style="font-size:.72rem;color:#64748b;margin-bottom:6px;">
+                {date_} &nbsp;·&nbsp; ⏰ {time_} BRT{encerrado_label}
+              </div>
+              <div style="display:flex;align-items:center;gap:6px;">
+                <div style="flex:1;text-align:right;">
+                  <div style="font-weight:700;font-size:{font_size};">{ta}</div>
+                  <div style="font-size:.7rem;color:#64748b;">Elo {p.get('elo_mandante','')}</div>
+                </div>
+                <div style="text-align:center;min-width:76px;">
+                  <span class="score-badge" style="font-size:{badge_size};padding:4px 12px;">{score}</span>
+                  <div style="font-size:.6rem;color:#64748b;margin-top:2px;">previsão</div>
+                </div>
+                <div style="flex:1;text-align:left;">
+                  <div style="font-weight:700;font-size:{font_size};">{tb}</div>
+                  <div style="font-size:.7rem;color:#64748b;">Elo {p.get('elo_visitante','')}</div>
+                </div>
+              </div>
+              {resultado_line}
+              <div style="margin-top:8px;">
+                <div class="prob-bar">
+                  <div style="flex:{wa_p};background:#4ade80;"></div>
+                  <div style="flex:{wd_p};background:#fbbf24;"></div>
+                  <div style="flex:{wb_p};background:#f87171;"></div>
+                </div>
+                <div style="display:flex;justify-content:space-between;font-size:.68rem;margin-top:2px;">
+                  <span style="color:#4ade80;">{wa_p}% {ta.split()[0]}</span>
+                  <span style="color:#fbbf24;">{wd_p}% Emp</span>
+                  <span style="color:#f87171;">{wb_p}% {tb.split()[0]}</span>
+                </div>
+              </div>
+              <div style="font-size:.65rem;color:#475569;margin-top:5px;">📍 {venue}</div>
+            </div>"""
+
+            st.markdown(card_html, unsafe_allow_html=True)
+            if not jogado:
+                if st.button("🔍 Previsão completa", key=f"fin_{p['id']}", use_container_width=True):
+                    st.session_state.update({
+                        "selected_match": {
+                            "home": ta, "away": tb,
+                            "date": p["data"], "venue": venue,
+                            "phase": fase,
+                        },
+                        "result": None, "team_res_a": None, "team_res_b": None,
+                        "page": "📊 Resultado da Previsão",
+                    })
+                    _load_and_predict(ta, tb, fase)
+                    st.rerun()
+
+        st.caption(
+            f"Previsões geradas em **{final_preds_raw.get('_gerado_em','')[:10]}** · "
+            f"{final_preds_raw.get('_modelo','')}."
+        )
 
 
 elif page == "🥇 Probabilidade de Título":
